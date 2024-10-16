@@ -26,7 +26,7 @@ public class PlayerMove : MonoBehaviour
 
         if(Input.GetButtonDown("Jump"))
         {
-            rb.AddForce(new Vector2(rb.velocity.x, jump));
+            characterBody.AddForce(new Vector2(characterBody.velocity.x, jump));
         }
         
     }
