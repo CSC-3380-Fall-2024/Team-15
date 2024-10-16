@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody2D characterBody;
     private Vector2 velocity;
     private Vector2 inputMovement;
+    public int jump = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,12 @@ public class PlayerMove : MonoBehaviour
             Input.GetAxisRaw("Horizontal"),
             Input.GetAxisRaw("Vertical")
         );
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(new Vector2(rb.velocity.x, jump));
+        }
+        
     }
 
     private void FixedUpdate()
