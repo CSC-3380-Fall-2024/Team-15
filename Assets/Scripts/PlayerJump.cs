@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-    private RigidBody2D rb;
+    private Rigidbody2D rb;
     public float jump = 10;
     // Start is called before the first frame update
     void Start()
     {
         // Initialize rigidbody object
-        rb = GetComponent<RigidBody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class PlayerJump : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
-            rb.AddForce(new Vector2(rb.velocity.x, jump))
+            rb.AddForce(new Vector2(rb.velocity.x, jump));
         }
     }
 }
