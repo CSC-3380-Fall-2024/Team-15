@@ -18,7 +18,7 @@ public class PlayerJump : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
-            rb.AddForce(new Vector2(rb.velocity.x, jump))
+            rb.AddForce(new Vector2(rb.velocity.x, jump));
         }
     }
 }
