@@ -9,10 +9,8 @@ public class HealthPack : MonoBehaviour
     public int multiplier = 15;
     void OnTriggerEnter2D (Collider2D other)
     {
-        Debug.Log("Triggered by: " + other.name);
         if (other.CompareTag("Player"))
         {
-            Debug.Log("player collided with pack");
             Pickup(other);
         }
     }

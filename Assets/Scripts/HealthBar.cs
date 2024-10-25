@@ -22,7 +22,6 @@ public class HealthBar : MonoBehaviour
     public void AddHealth (int amount)
     {
         SetHealth((int)slider.value + amount);
-        Debug.Log("added health :)");
     }
 
 }
