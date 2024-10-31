@@ -7,10 +7,21 @@ public class AntiHealthpack : MonoBehaviour
 {
     public GameObject Target;
     public int multiplier = -20;
+    public float FollowDuration = 5f;
+    public float FollowTimer;
 
+    void Start()
+    {
+        FollowTimer = FollowDuration;
+    }
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position,Target.transform.position, 5 * Time.deltaTime);
+        if (FollowTimer > 0)
+        {
+            transform.position = Vector2.MoveTowards(transform.position,Target.transform.position, 5 * Time.deltaTime);
+            FollowTimer -= Time.deltaTime;
+        }
+        
     }
     void OnTriggerEnter2D(Collider2D other)
     {
