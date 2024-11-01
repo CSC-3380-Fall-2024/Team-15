@@ -17,8 +17,8 @@ public class HealthPack : MonoBehaviour
     void Pickup(Collider2D player)
     {
        
-       Player playerScript = player.GetComponent<Player>();
-       playerScript.healthBar.AddHealth(multiplier);
+       Health playerScript = player.GetComponent<Health>();
+       playerScript.Heal(multiplier);
         Destroy(gameObject);
     }
 }
