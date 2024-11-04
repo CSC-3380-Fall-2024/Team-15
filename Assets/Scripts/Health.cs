@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int health = 100;
+    public int health = 100;
     private int maxHealth = 100;
     
     public HealthBar healthBar; // Reference to HealthBar script
@@ -46,6 +46,6 @@ public class Health : MonoBehaviour
    // Handles the characters death by destroying the game object
    private void Die()
    {
-    Destroy(gameObject);
+   // Destroy(gameObject);
    }
 }
