@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossRun : MonoBehaviour
+public class BossRun : StateMachineBehaviour
 {
     public float speed = 2.5f;
     public float attackRange = 3f;
