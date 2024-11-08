@@ -6,7 +6,8 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private int health = 100;
     private int maxHealth = 100;
-    
+    private bool isDead;
+    public GameManagerScript gameManager;
     public HealthBar healthBar; // Reference to HealthBar script
     // Initializes health values at the start and updated the health bar
     void Start()
@@ -32,9 +33,11 @@ public class Health : MonoBehaviour
         health -= amount;
         healthBar.SetHealth(health);
 
-        if (health <= 0)
+        if (health <= 0 && !isDead)
         {
+            isDead = true;
             Die();
+            gameManager.gameOver();
         }
     }
     // Increases the health by a specific amount and updates the healthbar to that value
@@ -46,6 +49,7 @@ public class Health : MonoBehaviour
    // Handles the characters death by destroying the game object
    private void Die()
    {
-    Destroy(gameObject);
+    gameObject.SetActive(false);
+    Debug.Log("You are Dead");
    }
 }
