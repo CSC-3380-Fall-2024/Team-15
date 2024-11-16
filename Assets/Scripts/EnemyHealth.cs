@@ -1,9 +1,11 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    [SerializeField] FloatingHealthbar healthBar;
     [SerializeField] private int health = 100;
     private int MaxHealth = 100;
 
@@ -19,6 +21,7 @@ public class EnemyHealth : MonoBehaviour
         {
             Die();
         }
+        healthBar.UpdateHealthBar(health, MaxHealth);
     }
 
     public void Heal(int amount)
@@ -40,11 +43,17 @@ public class EnemyHealth : MonoBehaviour
         }
         
         health = Mathf.Min(health + amount, MaxHealth);
+        healthBar.UpdateHealthBar(health, MaxHealth);
     }
 
    private void Die()
    {
     Debug.Log("I am Dead!");
     Destroy(gameObject);
+   }
+
+   private void Awake()
+   {
+    healthBar = GetComponentInChildren<FloatingHealthbar>();
    }
 }
