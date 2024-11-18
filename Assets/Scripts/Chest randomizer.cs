@@ -41,17 +41,15 @@ public class Chestrandomizer : MonoBehaviour
         chestAnimator.SetTrigger("Open");
 
         yield return new WaitForSeconds(openDelay);
-        Vector3 spawnPosition = transform.position + Vector3.up * 2f; // Slightly above the chest
+        Vector3 spawnPosition = transform.position + Vector3.up * 2f; 
         GameObject randomPowerUp = powerUps[Random.Range(0, powerUps.Count)];
         randomPowerUp.SetActive(true);
-       GameObject spawnedPowerUp = Instantiate(randomPowerUp, spawnPosition, Quaternion.identity);
+        GameObject spawnedPowerUp = Instantiate(randomPowerUp, spawnPosition, Quaternion.identity);
+        Destroy(gameObject);
 
-        //spawnedPowerUp.GetComponent<Collider2D>().enabled = false;
-
-       yield return new WaitForSeconds(1f);
-      // spawnedPowerUp.GetComponent<Collider2D>().enabled = true;
+       //yield return new WaitForSeconds(1f);
        Debug.Log("Selected Power-Up: " + randomPowerUp.name);
-       Destroy(gameObject);
+      // Destroy(gameObject);
        isOpening = false;
     }
    
