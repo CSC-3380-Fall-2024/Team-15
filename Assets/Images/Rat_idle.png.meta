@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rat_idle_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1919
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1ab6679041aa48a336f1584c5081e
+      internalID: 1672727780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1919
+        width: 62
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae48e430a278aa341a5fee23c0cbcb99
+      internalID: 1015264889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1919
+        width: 65
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca742d89c18317c4da2d96c99bc8a3ee
+      internalID: -1734759152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1918
+        width: 73
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0076d6e8e0c443449be8d7db850726e8
+      internalID: 1212783899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1918
+        width: 80
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6a38ce1966eab4eb0a5fc78b135002
+      internalID: -2029258786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1918
+        width: 80
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b5342b83c6dfc4fb0ff54588b6c5e8
+      internalID: 1798469222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1918
+        width: 81
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157548ef11036a34aa206cfe904f1ed4
+      internalID: -1298913993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1918
+        width: 81
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20837b9d57bb529498b77a860b8bbccd
+      internalID: -958551534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1662
+        width: 81
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c843f2fbb310e6041979471c84d39e19
+      internalID: -772390742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1662
+        width: 81
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be71a749a46bc3f4aa94e6d81e68b97b
+      internalID: 1514478382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_10
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1663
+        width: 81
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708951565b46ec748bd1a89a7a151e22
+      internalID: 1614240241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_11
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1663
+        width: 80
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042484e5d16c38042842e99461c5ff21
+      internalID: -589673239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_12
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1663
+        width: 80
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7908fffd4ec209b41b8ff9feb42bfc19
+      internalID: 2003430721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1662
+        width: 79
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7438b4d3a13c984aa02de240f5e0ecf
+      internalID: 400162120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_14
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1662
+        width: 78
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd0398aa3d1a7e429a67c6368ae7e30
+      internalID: -2008185368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1662
+        width: 75
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0164d4aa1a09e104bbaadc8ede6aadff
+      internalID: 93441059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1406
+        width: 72
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef334223a1bb3c5428c998265248ed15
+      internalID: 1794841043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1406
+        width: 69
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830cdb21ca53b5447ae99534c75a02a6
+      internalID: 499572379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1406
+        width: 65
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f83b5b17fda94d4ba98a327891342fa
+      internalID: 270055189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1407
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a736a5f43a4f8d459a49ae030315984
+      internalID: -949766690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1407
+        width: 62
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b9d2bebe638874dab7844b2e2c6313
+      internalID: -528589028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_idle_21
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1407
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b22519a270e974f8645227e6ce589c
+      internalID: -301650559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +568,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rat_idle_0: 1672727780
+      Rat_idle_1: 1015264889
+      Rat_idle_10: 1614240241
+      Rat_idle_11: -589673239
+      Rat_idle_12: 2003430721
+      Rat_idle_13: 400162120
+      Rat_idle_14: -2008185368
+      Rat_idle_15: 93441059
+      Rat_idle_16: 1794841043
+      Rat_idle_17: 499572379
+      Rat_idle_18: 270055189
+      Rat_idle_19: -949766690
+      Rat_idle_2: -1734759152
+      Rat_idle_20: -528589028
+      Rat_idle_21: -301650559
+      Rat_idle_3: 1212783899
+      Rat_idle_4: -2029258786
+      Rat_idle_5: 1798469222
+      Rat_idle_6: -1298913993
+      Rat_idle_7: -958551534
+      Rat_idle_8: -772390742
+      Rat_idle_9: 1514478382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
