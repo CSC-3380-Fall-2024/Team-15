@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,658 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rat_JUMp_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1919
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b8826d760d7774c94e6874ca8dc9f5
+      internalID: 1746094979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1920
+        width: 59
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f8705aad0bfd74e9e613afbccb2d6e
+      internalID: 122884896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1920
+        width: 62
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96d3dbd782ff6d49a65ef7983bf093d
+      internalID: -1963466075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1920
+        width: 67
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dc0da6b4441ea4482d91faf9a37655
+      internalID: 879793679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_4
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1920
+        width: 73
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983f01fa6a09fc941840902ba3130df7
+      internalID: 983876868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_5
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1920
+        width: 77
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e6ee51fdfdb4b4f897883928b4f978
+      internalID: -1265681263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_6
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1920
+        width: 80
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d64922f7170d134d9cab11f8bf6c9c0
+      internalID: 1750283440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_7
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1919
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fde3a0024aa49d4cacf70720de4523e
+      internalID: -308527613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1663
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc7b00f5ba9fd48b79c5ddd3a317f7
+      internalID: -249313073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1662
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f4c31614b90a243bc80c469783c55c
+      internalID: 895148624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_10
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1664
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ee2f7663145cc43b8505d49b88f9e9
+      internalID: -1638142884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_11
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1666
+        width: 90
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaffdc636895ef149acfde22a3debe29
+      internalID: 827955935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1668
+        width: 94
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae5554847ff44a45bb7fd63d7832569
+      internalID: -415334131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_13
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1670
+        width: 106
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58923580388f1354fa437bc7a8cac45f
+      internalID: -2053356293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_14
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1673
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc02f7787d0579419ee077bd5a9c873
+      internalID: 1047956778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_15
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1671
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1060f98419fa84399861fbc6bc8067
+      internalID: -740806744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1416
+        width: 108
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c151a7ae13d2f418ace18dc5ea06fa
+      internalID: -1510692673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_17
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1427
+        width: 110
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c44456861d245b45a5363444d6bf47c
+      internalID: 1494000881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1445
+        width: 117
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac93fe2acb7040d44a8d8e153dca9253
+      internalID: 1754343561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_19
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1457
+        width: 114
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96280b9bdd8ae1e44ba7e31829277679
+      internalID: 2099267006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_20
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1451
+        width: 115
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df23378ad9c7ac4295b4b11b8755b43
+      internalID: 915288805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_21
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1443
+        width: 113
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d4c63fc8f69264d86da1faaf7d161d
+      internalID: -1964074978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_22
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1434
+        width: 109
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b90bc7ad361a42ad7f7e2b5f878bc
+      internalID: -1907751647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_23
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1424
+        width: 113
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690d999beb4e9e428659fc8cd361a69
+      internalID: -2142770974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1161
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c1011736f92c9478d17f60c7373204
+      internalID: 983748359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1159
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f46e5136c29f40bc2b03b878d7d78
+      internalID: 1908504061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1158
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb83752dcc918e5469dd4d00449b25a7
+      internalID: -1416105318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1156
+        width: 111
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc73e8694647e4ab4889e6731c8efc
+      internalID: 853431819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_28
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1154
+        width: 102
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7419c92430e819499ff75e0cb23f70d
+      internalID: 1391118700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_29
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1153
+        width: 91
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca15a56e63e9375488cce33c8fe2fc63
+      internalID: -368390150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_JUMp_30
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1150
+        width: 90
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043ba8100e1031f46a3e828de2644d9a
+      internalID: -798501408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +757,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rat_JUMp_0: 1746094979
+      Rat_JUMp_1: 122884896
+      Rat_JUMp_10: -1638142884
+      Rat_JUMp_11: 827955935
+      Rat_JUMp_12: -415334131
+      Rat_JUMp_13: -2053356293
+      Rat_JUMp_14: 1047956778
+      Rat_JUMp_15: -740806744
+      Rat_JUMp_16: -1510692673
+      Rat_JUMp_17: 1494000881
+      Rat_JUMp_18: 1754343561
+      Rat_JUMp_19: 2099267006
+      Rat_JUMp_2: -1963466075
+      Rat_JUMp_20: 915288805
+      Rat_JUMp_21: -1964074978
+      Rat_JUMp_22: -1907751647
+      Rat_JUMp_23: -2142770974
+      Rat_JUMp_24: 983748359
+      Rat_JUMp_25: 1908504061
+      Rat_JUMp_26: -1416105318
+      Rat_JUMp_27: 853431819
+      Rat_JUMp_28: 1391118700
+      Rat_JUMp_29: -368390150
+      Rat_JUMp_3: 879793679
+      Rat_JUMp_30: -798501408
+      Rat_JUMp_4: 983876868
+      Rat_JUMp_5: -1265681263
+      Rat_JUMp_6: 1750283440
+      Rat_JUMp_7: -308527613
+      Rat_JUMp_8: -249313073
+      Rat_JUMp_9: 895148624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
