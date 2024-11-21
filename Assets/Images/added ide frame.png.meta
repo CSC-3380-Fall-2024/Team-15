@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 83fda04ce922942d1b20ee19f71a0d62
+guid: a5aa693d6553845e6bccb5966dcaf1a5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rat_idle_0
+      name: added ide frame_0
       rect:
         serializedVersion: 2
         x: 95
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5b1ab6679041aa48a336f1584c5081e
-      internalID: 1672727780
+      spriteID: 859517b7d3b4148a6a14580c3c3613f5
+      internalID: -1086670536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_1
+      name: added ide frame_1
       rect:
         serializedVersion: 2
         x: 350
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae48e430a278aa341a5fee23c0cbcb99
-      internalID: 1015264889
+      spriteID: fed50183931e84256a108543aae38f52
+      internalID: -1311044018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_2
+      name: added ide frame_2
       rect:
         serializedVersion: 2
         x: 605
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca742d89c18317c4da2d96c99bc8a3ee
-      internalID: -1734759152
+      spriteID: d148abd97cdf54dfab34f1f10657ed71
+      internalID: -1327614324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_3
+      name: added ide frame_3
       rect:
         serializedVersion: 2
         x: 857
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0076d6e8e0c443449be8d7db850726e8
-      internalID: 1212783899
+      spriteID: c38fc4546f32b45c98ed09659139b158
+      internalID: 342564198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_4
+      name: added ide frame_4
       rect:
         serializedVersion: 2
         x: 1109
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6a38ce1966eab4eb0a5fc78b135002
-      internalID: -2029258786
+      spriteID: bf86dd5ce413f4c009802de1b5d2f60d
+      internalID: -321434094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_5
+      name: added ide frame_5
       rect:
         serializedVersion: 2
         x: 1362
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95b5342b83c6dfc4fb0ff54588b6c5e8
-      internalID: 1798469222
+      spriteID: 324ea5d33d78743ad93ce4dc76695f79
+      internalID: -646882910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_6
+      name: added ide frame_6
       rect:
         serializedVersion: 2
         x: 1614
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 157548ef11036a34aa206cfe904f1ed4
-      internalID: -1298913993
+      spriteID: 6ddd5adf051c543148f0a842cc83fba4
+      internalID: 1851459270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_7
+      name: added ide frame_7
       rect:
         serializedVersion: 2
         x: 1870
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20837b9d57bb529498b77a860b8bbccd
-      internalID: -958551534
+      spriteID: 6ccb9dbac177c43bc8c0aa87caf43cf7
+      internalID: 1343712898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_8
+      name: added ide frame_8
       rect:
         serializedVersion: 2
         x: 78
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c843f2fbb310e6041979471c84d39e19
-      internalID: -772390742
+      spriteID: f764f980fa3ed4788bf6dd75704d94a0
+      internalID: 2130831107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_9
+      name: added ide frame_9
       rect:
         serializedVersion: 2
         x: 334
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be71a749a46bc3f4aa94e6d81e68b97b
-      internalID: 1514478382
+      spriteID: 90d248a2e171944c6af4db9fd8027300
+      internalID: -467888840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_10
+      name: added ide frame_10
       rect:
         serializedVersion: 2
         x: 590
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 708951565b46ec748bd1a89a7a151e22
-      internalID: 1614240241
+      spriteID: a47bb003507e6400fb23e2e48bf7c955
+      internalID: 1726112876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_11
+      name: added ide frame_11
       rect:
         serializedVersion: 2
         x: 846
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 042484e5d16c38042842e99461c5ff21
-      internalID: -589673239
+      spriteID: d79685af27dfc489f801d510f6039233
+      internalID: -202510257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_12
+      name: added ide frame_12
       rect:
         serializedVersion: 2
         x: 1102
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7908fffd4ec209b41b8ff9feb42bfc19
-      internalID: 2003430721
+      spriteID: be441344b564e4f37b3b955115e22aa5
+      internalID: -172660698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_13
+      name: added ide frame_13
       rect:
         serializedVersion: 2
         x: 1358
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7438b4d3a13c984aa02de240f5e0ecf
-      internalID: 400162120
+      spriteID: efd3ec7a71772469582e8575cce67adf
+      internalID: -1841511404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_14
+      name: added ide frame_14
       rect:
         serializedVersion: 2
         x: 1614
@@ -405,19 +405,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bd0398aa3d1a7e429a67c6368ae7e30
-      internalID: -2008185368
+      spriteID: 5bcf8223f868c409b8d378bc5375a958
+      internalID: -685600644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_15
+      name: added ide frame_15
       rect:
         serializedVersion: 2
-        x: 1873
+        x: 1870
         y: 1662
-        width: 75
+        width: 78
         height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -426,19 +426,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0164d4aa1a09e104bbaadc8ede6aadff
-      internalID: 93441059
+      spriteID: 843655794828f43468aef398693e7de8
+      internalID: -73917980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_16
+      name: added ide frame_16
       rect:
         serializedVersion: 2
-        x: 84
+        x: 82
         y: 1406
-        width: 72
+        width: 74
         height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -447,19 +447,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef334223a1bb3c5428c998265248ed15
-      internalID: 1794841043
+      spriteID: 9717adc9d17134062a397862230c3d42
+      internalID: -2057831808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_17
+      name: added ide frame_17
       rect:
         serializedVersion: 2
-        x: 343
+        x: 341
         y: 1406
-        width: 69
+        width: 71
         height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -468,40 +468,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830cdb21ca53b5447ae99534c75a02a6
-      internalID: 499572379
+      spriteID: aedfed2181ce845d096d5af149fd633a
+      internalID: 304610094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_18
+      name: added ide frame_18
       rect:
         serializedVersion: 2
-        x: 602
+        x: 601
         y: 1406
+        width: 67
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7fcb6ddf75e46eaa2cedd8927e1f2f
+      internalID: 1851437582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: added ide frame_19
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1407
         width: 65
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f83b5b17fda94d4ba98a327891342fa
-      internalID: 270055189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rat_idle_19
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 1407
-        width: 64
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -510,19 +510,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a736a5f43a4f8d459a49ae030315984
-      internalID: -949766690
+      spriteID: 6e0853b6f54f343ec9fb2f097ddeb0de
+      internalID: 620300538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_20
+      name: added ide frame_20
       rect:
         serializedVersion: 2
-        x: 1117
+        x: 1116
         y: 1407
-        width: 62
+        width: 63
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -531,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b9d2bebe638874dab7844b2e2c6313
-      internalID: -528589028
+      spriteID: 28ff720cbdee54710aabb990f2e3e394
+      internalID: 1151922982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rat_idle_21
+      name: added ide frame_21
       rect:
         serializedVersion: 2
         x: 1375
@@ -552,8 +552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65b22519a270e974f8645227e6ce589c
-      internalID: -301650559
+      spriteID: b8524a2c8c1534d2785085191d97224c
+      internalID: 722667069
       vertices: []
       indices: 
       edges: []
@@ -569,28 +569,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rat_idle_0: 1672727780
-      Rat_idle_1: 1015264889
-      Rat_idle_10: 1614240241
-      Rat_idle_11: -589673239
-      Rat_idle_12: 2003430721
-      Rat_idle_13: 400162120
-      Rat_idle_14: -2008185368
-      Rat_idle_15: 93441059
-      Rat_idle_16: 1794841043
-      Rat_idle_17: 499572379
-      Rat_idle_18: 270055189
-      Rat_idle_19: -949766690
-      Rat_idle_2: -1734759152
-      Rat_idle_20: -528589028
-      Rat_idle_21: -301650559
-      Rat_idle_3: 1212783899
-      Rat_idle_4: -2029258786
-      Rat_idle_5: 1798469222
-      Rat_idle_6: -1298913993
-      Rat_idle_7: -958551534
-      Rat_idle_8: -772390742
-      Rat_idle_9: 1514478382
+      added ide frame_0: -1086670536
+      added ide frame_1: -1311044018
+      added ide frame_10: 1726112876
+      added ide frame_11: -202510257
+      added ide frame_12: -172660698
+      added ide frame_13: -1841511404
+      added ide frame_14: -685600644
+      added ide frame_15: -73917980
+      added ide frame_16: -2057831808
+      added ide frame_17: 304610094
+      added ide frame_18: 1851437582
+      added ide frame_19: 620300538
+      added ide frame_2: -1327614324
+      added ide frame_20: 1151922982
+      added ide frame_21: 722667069
+      added ide frame_3: 342564198
+      added ide frame_4: -321434094
+      added ide frame_5: -646882910
+      added ide frame_6: 1851459270
+      added ide frame_7: 1343712898
+      added ide frame_8: 2130831107
+      added ide frame_9: -467888840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
