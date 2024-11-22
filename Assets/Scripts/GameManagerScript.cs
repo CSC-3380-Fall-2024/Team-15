@@ -38,13 +38,13 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void mainMenu()
+    public void level()
     {
-        // SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("LevelSelect");
     }
 
     public void quit()
     {
-        // Application.Quit();
+        Application.Quit();
     }
 }
