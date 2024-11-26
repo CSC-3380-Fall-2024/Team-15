@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Transactions;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class AntiHealthpack : MonoBehaviour
+public class AntiHealthpack : MonoBehaviour,IPowerUp
 {
-    public GameObject Target;
+    
     public int multiplier = -20;
     public float FollowDuration = 5f;
     public float FollowTimer;
@@ -18,36 +19,17 @@ public class AntiHealthpack : MonoBehaviour
 
         if (rb != null)
         {
-            rb.gravityScale = 0;
+            rb.gravityScale = 1;
         }
     }
-    void Update()
+   
+    public void Activate(GameObject player)
     {
-        if (FollowTimer > 0)
+        Health playerHealth = player.GetComponent<Health>();
+        if (playerHealth != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position,Target.transform.position, 5 * Time.deltaTime);
-            FollowTimer -= Time.deltaTime;
+            playerHealth.Damage(Mathf.Abs(multiplier));
         }
-        else
-        {
-            if (rb != null)
-            {
-                rb.gravityScale = 1;
-            }
-        }
+        Destroy(gameObject);
     }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Pickup(other);
-        }
-    }
-
-   void Pickup(Collider2D player)
-   {
-    Health PlayerScript = player.GetComponent<Health>();
-    PlayerScript.Damage(Mathf.Abs(multiplier));
-    Destroy(gameObject);
-   }
 }
