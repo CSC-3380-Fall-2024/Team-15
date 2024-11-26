@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class SpeedBoost : MonoBehaviour
+public class SpeedBoost : MonoBehaviour,IPowerUp
 {
     public float boostAmount = 4f;
     public float duration = 4f;
     
-    // This method makes sure when the player collides with powerup it picks it up and starts the timer of the pickup method
-    private void OnTriggerEnter2D(Collider2D other)
+    public void Activate (GameObject player)
     {
-        if (other.CompareTag("Player"))
-        {
-           StartCoroutine(Pickup(other));
-
-        }
+          PlayerMove playerMove = player.GetComponent<PlayerMove>();
+          if (playerMove != null)
+          {
+            playerMove.StartCoroutine(ApplySpeedBoost(playerMove));
+          }
+          Destroy(gameObject);
     }
     // This method enables the speedboost when its picked up and deletes it when the timer runs out
-    IEnumerator Pickup(Collider2D player)
+    private IEnumerator ApplySpeedBoost(PlayerMove playerMove)
     {
       
-            PlayerMove playerMove = player.GetComponent<PlayerMove>();
+           
             playerMove.moveSpeed *= boostAmount;
 
             
@@ -32,7 +32,7 @@ public class SpeedBoost : MonoBehaviour
           
             playerMove.moveSpeed /= boostAmount;
 
-            Destroy(gameObject);
+          //  Destroy(gameObject);
 
     }
     
