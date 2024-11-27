@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 231877841}
   - component: {fileID: 231877842}
   - component: {fileID: 231877843}
+  - component: {fileID: 231877844}
   m_Layer: 0
   m_Name: RoachEnemy
   m_TagString: Untagged
@@ -453,9 +454,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72313858dd454722b50f77fb8abf877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 4530715989523134732, guid: 341628709c9a449bf9a43e249b9f793c, type: 3}
+--- !u!114 &231877844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231877835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ea5f3125f9e44b2a24cd8029a9e861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 1181205084382029758, guid: cf0b43a67aadf479e9024f61a9c9fa29, type: 3}
   lootList:
-  - {fileID: 11400000, guid: 7d09531a8d0604087a7f66ed3ad23731, type: 2}
+  - {fileID: 11400000, guid: 01fc602dbb76b4bc8857045583894ff3, type: 2}
 --- !u!1 &316528004
 GameObject:
   m_ObjectHideFlags: 0
