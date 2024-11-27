@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Transactions;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class AntiHealthpack : MonoBehaviour
+public class AntiHealthpack : MonoBehaviour,IPowerUp
 {
     
     public int multiplier = -20;
@@ -22,18 +23,13 @@ public class AntiHealthpack : MonoBehaviour
         }
     }
    
-    void OnTriggerEnter2D(Collider2D other)
+    public void Activate(GameObject player)
     {
-        if (other.CompareTag("Player"))
+        Health playerHealth = player.GetComponent<Health>();
+        if (playerHealth != null)
         {
-            Pickup(other);
+            playerHealth.Damage(Mathf.Abs(multiplier));
         }
+        Destroy(gameObject);
     }
-
-   void Pickup(Collider2D player)
-   {
-    Health PlayerScript = player.GetComponent<Health>();
-    PlayerScript.Damage(Mathf.Abs(multiplier));
-    Destroy(gameObject);
-   }
 }
