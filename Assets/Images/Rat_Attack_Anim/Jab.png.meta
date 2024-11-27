@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Jab_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1919
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7f54302a10f2b449b1adadf11d7c0e
+      internalID: -2043130189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1919
+        width: 56
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c5d4b1e4eac441b6b1527123199af
+      internalID: 781730721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1919
+        width: 58
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3eb5fecabb9c4380d9019d6799492
+      internalID: 545166809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1919
+        width: 73
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff75a5f778f096418cab53f1d3646a4
+      internalID: 1760773306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_4
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1919
+        width: 88
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2fd7961d910a04f8b2f9d2905d28db
+      internalID: 866790903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1919
+        width: 99
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c539bbb0dda19b349a886d75721282a9
+      internalID: -1146812765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_6
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1919
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99615456984e00844ac167b3ce439b8e
+      internalID: 60150644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jab_7
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1919
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772729082e3d02c4cb20df34745f8c57
+      internalID: -1399337326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +274,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jab_0: -2043130189
+      Jab_1: 781730721
+      Jab_2: 545166809
+      Jab_3: 1760773306
+      Jab_4: 866790903
+      Jab_5: -1146812765
+      Jab_6: 60150644
+      Jab_7: -1399337326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
