@@ -18,14 +18,14 @@ public class Health : MonoBehaviour
     // Checks for player input to damage or heal
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.O))
-        {
-            Damage(10);
-        }
-        if(Input.GetKeyDown(KeyCode.H))
-        {
-            Heal(10);
-        }
+       // if(Input.GetKeyDown(KeyCode.O))
+      //  {
+      //      Damage(10);
+      //  }
+      //  if(Input.GetKeyDown(KeyCode.H))
+      //  {
+       //     Heal(10);
+      //  }
     }
     // Reduces the health by a specific amount and if it reaches 0 or drops it triggers the die method
     public void Damage(int amount)

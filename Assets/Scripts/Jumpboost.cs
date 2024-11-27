@@ -2,25 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jumpboost : MonoBehaviour
+public class Jumpboost : MonoBehaviour,IPowerUp
 {
      public float jumpAmount = 2f;
     public float duration = 4f;
     
-    // This method makes sure when the player collides with powerup it picks it up and starts the timer of the pickup method
-    private void OnTriggerEnter2D(Collider2D other)
+    // This method makes sure when the powerup is activated it starts the routine for the jumpboost
+   public void Activate (GameObject player)
     {
-        if (other.CompareTag("Player"))
-        {
-           StartCoroutine(Pickup(other));
-
-        }
+          PlayerMove playerMove = player.GetComponent<PlayerMove>();
+          if (playerMove != null)
+          {
+            playerMove.StartCoroutine(ApplyJumpBoost(playerMove));
+          }
+          Destroy(gameObject);
     }
     // This method enables the jumpboost when its picked up and deletes it when the timer runs out
-    IEnumerator Pickup(Collider2D player)
+    private IEnumerator ApplyJumpBoost(PlayerMove playerMove)
     {
       
-            PlayerMove playerMove = player.GetComponent<PlayerMove>();
+           
             playerMove.jumpPower *= jumpAmount;
 
             
@@ -31,7 +32,7 @@ public class Jumpboost : MonoBehaviour
           
             playerMove.jumpPower /= jumpAmount;
 
-            Destroy(gameObject);
+         
 
     }
     
