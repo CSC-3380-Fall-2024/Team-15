@@ -124,7 +124,6 @@ MonoBehaviour:
   - {fileID: 6072162259058535518, guid: f4650fd01580cc842b348569f513f684, type: 3}
   - {fileID: 2757476935506146275, guid: da095cb0d45549d41a39d58dff075dcc, type: 3}
   - {fileID: 5859882167657495503, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
-  - {fileID: 6512630210460099626, guid: 8ef18e9e681cf405abdd116be10e64aa, type: 3}
   chestAnimator: {fileID: 4546601824572615934}
   openDelay: 0.5
 --- !u!61 &7379471868633041535

@@ -22,7 +22,7 @@ public class Chestrandomizer : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !isOpening)
+        if (playerInRange && Input.GetKeyDown(KeyCode.Z) && !isOpening)
         {
             OpenChest();
         }
