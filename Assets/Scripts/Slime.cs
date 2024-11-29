@@ -1,18 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEditor.ShaderGraph;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class Slime : MonoBehaviour
 {
-    private float moveSpeed = 5f;
-    public float chaseRange = 5f; 
+    private float moveSpeed = 4f;
+    public float chaseRange = 3f; 
     public float attackRange = 1.5f;
     private int maxHealth = 50;
     private int currentHealth;
+    public float jumpPower = 2f;
+    private bool isGrounded;
+    public LayerMask groundLayer;
+    private bool shouldJump;
     private Transform player;
     private bool isChasing = false;
     private bool isAttacking = false;
@@ -32,6 +33,27 @@ public class Slime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1f, groundLayer);
+
+        float direction = Mathf.Sign(player.position.x - transform.position.x);
+
+        bool isPlayerAbove = Physics2D.Raycast(transform.position,Vector2.up, 3f, 1 << player.gameObject.layer);
+
+        if (isGrounded)
+        {
+            RaycastHit2D groundInFront = Physics2D.Raycast(transform.position,new Vector2(direction, 0), 2f, groundLayer);
+            RaycastHit2D gapAhead = Physics2D.Raycast(transform.position + new Vector3(direction, 0, 0), Vector2.down, 2f, groundLayer);
+            RaycastHit2D platformAbove = Physics2D.Raycast(transform.position, Vector2.up, 3f, groundLayer);
+
+            if (!groundInFront.collider && !gapAhead.collider)
+            {
+                shouldJump = true;
+            }
+            else if (isPlayerAbove && platformAbove.collider)
+            {
+                shouldJump = true;
+            }
+        }
         if(player == null) return;
             
         if(currentHealth <= 0) Die();
@@ -58,6 +80,26 @@ public class Slime : MonoBehaviour
         if (isChasing && !isAttacking)
         {
             MoveTowardPlayer();
+        }
+
+        if (transform.position.x > player.position.x)
+        {
+            transform.localScale = new Vector3(.4f, .4f, 1);
+        }
+        else if (transform.position.x < player.position.x)
+        {
+            transform.localScale = new Vector3(-.4f, .4f, 1);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if(isGrounded & shouldJump)
+        {
+           shouldJump = false;
+           Vector2 direction = (player.position - transform.position).normalized; 
+           Vector2 jumpDirection = direction *jumpPower;
+           rb.AddForce(new UnityEngine.Vector2(jumpDirection.x, jumpPower), ForceMode2D.Impulse);
         }
     }
 
