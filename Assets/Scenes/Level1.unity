@@ -556,7 +556,6 @@ GameObject:
   - component: {fileID: 231877839}
   - component: {fileID: 231877841}
   - component: {fileID: 231877842}
-  - component: {fileID: 231877843}
   m_Layer: 0
   m_Name: RoachEnemy
   m_TagString: Untagged
@@ -730,18 +729,6 @@ MonoBehaviour:
   attackRange: 1.5
   attackDamage: 8
   target: {fileID: 450868083}
---- !u!114 &231877843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231877835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d72313858dd454722b50f77fb8abf877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &316528004
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,9 +3877,8 @@ GameObject:
   - component: {fileID: 2101245651}
   - component: {fileID: 2101245650}
   - component: {fileID: 2101245649}
-  - component: {fileID: 2101245647}
-  - component: {fileID: 2101245646}
-  - component: {fileID: 2101245652}
+  - component: {fileID: 2101245653}
+  - component: {fileID: 2101245654}
   m_Layer: 0
   m_Name: SlimeEnemy
   m_TagString: Untagged
@@ -3900,46 +3886,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &2101245646
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101245645}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 94f5dbba2147e49858445d05a336a1ee, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2101245647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101245645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd1f0716fb388bd458f053c3fb10949a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chaseRange: 5
-  attackRange: 1
-  jumpPower: 4
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  attackDamage: 8
 --- !u!50 &2101245649
 Rigidbody2D:
   serializedVersion: 4
@@ -4005,10 +3951,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 502422679
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1713184976, guid: 8d624e753e4c2477da8ef03f591eca51, type: 3}
+  m_Sprite: {fileID: 265968049, guid: 698d8f564877c497b8306d3372ca7b8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4034,8 +3980,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2101245652
-PolygonCollider2D:
+--- !u!114 &2101245653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101245645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1f0716fb388bd458f053c3fb10949a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseRange: 5
+  attackRange: 1.5
+  attackDamage: 8
+  target: {fileID: 450868083}
+--- !u!70 &2101245654
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4066,47 +4028,9 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.2425, y: 10.24}
-    newSize: {x: 10.2425, y: 10.24}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 2.8006837, y: -1.3378266}
-      - {x: 2.8006837, y: -0.68766785}
-      - {x: 2.5756288, y: -0.48761904}
-      - {x: 2.3505738, y: -0.48761904}
-      - {x: 2.3505738, y: 0.3375824}
-      - {x: 2.2005372, y: 0.3875946}
-      - {x: 2.2005372, y: 0.8627106}
-      - {x: 2.0755067, y: 1.2628083}
-      - {x: 1.5253724, y: 1.8379487}
-      - {x: 1.0002441, y: 2.138022}
-      - {x: 0.47511598, y: 2.2880585}
-      - {x: -0.5001221, y: 2.2880585}
-      - {x: -0.5501343, y: 2.138022}
-      - {x: -0.90021974, y: 2.138022}
-      - {x: -1.1502808, y: 1.9879853}
-      - {x: -1.4253479, y: 1.8129425}
-      - {x: -1.8004395, y: 1.4128449}
-      - {x: -2.1005127, y: 0.8377045}
-      - {x: -2.2505493, y: -0.46261293}
-      - {x: -2.6006348, y: -0.61264956}
-      - {x: -2.6006348, y: -1.5378754}
-      - {x: -2.5006104, y: -1.7629304}
-      - {x: -1.5503784, y: -1.8629547}
-      - {x: -1.4253479, y: -1.912967}
-      - {x: 1.2503052, y: -1.912967}
-      - {x: 1.3003174, y: -1.7879364}
-      - {x: 2.5506227, y: -1.7879364}
-      - {x: 2.7756777, y: -1.5878876}
-  m_UseDelaunayMesh: 0
+  m_Offset: {x: 0.018920898, y: 0.20828247}
+  m_Size: {x: 4.449005, y: 4.449005}
+  m_Direction: 0
 --- !u!1 &2133042950
 GameObject:
   m_ObjectHideFlags: 0
@@ -4301,6 +4225,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 3962736}
+    - target: {fileID: 7091055353991329852, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7196043192715042089, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_Size.x
       value: 0.68368196
