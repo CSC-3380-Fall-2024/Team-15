@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8d624e753e4c2477da8ef03f591eca51
+guid: 698d8f564877c497b8306d3372ca7b8a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime Sprite Sheet_0
+      name: Slime Sprite Sheet 4_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c080db15c8b1748efa25003b3c0fc7c4
-      internalID: -1713184976
+      spriteID: 0d776617ab174465fb48c9158c17aadc
+      internalID: 265968049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_1
+      name: Slime Sprite Sheet 4_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d16fed523e8944a689a628f8fbccb22e
-      internalID: -1168507395
+      spriteID: 3f234cb744f8a4a918e702e2f676f1cf
+      internalID: -289970287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_2
+      name: Slime Sprite Sheet 4_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7342c8b9f69c84ca98ad1f40c8d9c12f
-      internalID: -1976998731
+      spriteID: fb8c1654bb50d4a17a3c2e75b8f3a7b7
+      internalID: -613522168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_3
+      name: Slime Sprite Sheet 4_3
       rect:
         serializedVersion: 2
         x: 3072
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e43996ecd0043ee99ac18a4882ac92
-      internalID: -22849950
+      spriteID: 9fd1ec3fe2ff7496d8153df9a199fbee
+      internalID: -1302735744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_4
+      name: Slime Sprite Sheet 4_4
       rect:
         serializedVersion: 2
         x: 4096
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9558c1dd135f84dd3bee3ce131ec5c91
-      internalID: -1937435208
+      spriteID: 1379f65971ec74ca7994d937708bce17
+      internalID: 1767767158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_5
+      name: Slime Sprite Sheet 4_5
       rect:
         serializedVersion: 2
         x: 0
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41145cf164dae497bbdb02949367e22a
-      internalID: 623895764
+      spriteID: dd8568e98be424ffb97bac90c2223c45
+      internalID: 1913635378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_6
+      name: Slime Sprite Sheet 4_6
       rect:
         serializedVersion: 2
         x: 1024
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608fb611858fa4fa9a4c57b720d6a9bb
-      internalID: -688042039
+      spriteID: 08a18ef3a25984983835542e96a208f8
+      internalID: -1138683836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_7
+      name: Slime Sprite Sheet 4_7
       rect:
         serializedVersion: 2
         x: 2048
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b41ab2a41270b4b17a5c31c58fbe9392
-      internalID: 1892118277
+      spriteID: 3e22a9657a36545dc9baf035d5f68fa2
+      internalID: -493973807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_8
+      name: Slime Sprite Sheet 4_8
       rect:
         serializedVersion: 2
         x: 3072
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d448bc292f6184da9b90ae59ea6e858a
-      internalID: -1541144064
+      spriteID: 16d37a3c10da046569c50be0ee60b4ac
+      internalID: 1134650636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_9
+      name: Slime Sprite Sheet 4_9
       rect:
         serializedVersion: 2
         x: 4096
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed8cadcc6a224e1691d2a59c49f4aa5
-      internalID: 2048874047
+      spriteID: fa352a2b0270d46d8ab7de88026eb0e7
+      internalID: 2109643683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_10
+      name: Slime Sprite Sheet 4_10
       rect:
         serializedVersion: 2
         x: 0
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d1cb87fd5ca45918a96580c55b25c7
-      internalID: -473497696
+      spriteID: e471c365ff12944228b09c2bb7d916e4
+      internalID: 751856112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_11
+      name: Slime Sprite Sheet 4_11
       rect:
         serializedVersion: 2
         x: 1024
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3b52b83896324dbab8eb74525b39a0f
-      internalID: 1325717620
+      spriteID: 2744e35fe06f549bebbd92c2c2a3817b
+      internalID: 1857140462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_12
+      name: Slime Sprite Sheet 4_12
       rect:
         serializedVersion: 2
         x: 2048
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9570ca246bd574c8bbc68ac4c978bad3
-      internalID: -1575954784
+      spriteID: 7918f041676ba406f98d52a7cf0b810a
+      internalID: 1398993554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_13
+      name: Slime Sprite Sheet 4_13
       rect:
         serializedVersion: 2
         x: 3072
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6de60715412ca413187bcbced50160e0
-      internalID: 1347971386
+      spriteID: 667fa1e7eecc6464ca3c5a20ccea8f3c
+      internalID: -504417616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_14
+      name: Slime Sprite Sheet 4_14
       rect:
         serializedVersion: 2
         x: 4096
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ca1db0f8a50f4048b8a60a9211ba11c
-      internalID: -356916111
+      spriteID: 11323f4596e6c4ff9a29136910db6f5a
+      internalID: -140239832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_15
+      name: Slime Sprite Sheet 4_15
       rect:
         serializedVersion: 2
         x: 0
@@ -426,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c991dc8a879c4abe94d5cd7583671c2
-      internalID: -519821615
+      spriteID: 84e99f6de710c439f80ac2b258315953
+      internalID: -1811655912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_16
+      name: Slime Sprite Sheet 4_16
       rect:
         serializedVersion: 2
         x: 1024
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3925c26de262b4cfc8dcadf9041c4179
-      internalID: -523938123
+      spriteID: 63e1ab03e3d2f4990b37a5a5fc02c8dc
+      internalID: 1299345343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite Sheet_17
+      name: Slime Sprite Sheet 4_17
       rect:
         serializedVersion: 2
         x: 2048
@@ -468,29 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 730f75d66664e437e82abe9b19a5f516
-      internalID: -1314292086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime Sprite Sheet_18
-      rect:
-        serializedVersion: 2
-        x: 3072
-        y: 0
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e365cf2d87aed4846b1de9022d1c9b76
-      internalID: -1173413790
+      spriteID: 931cb71d88a7446d7996416ef9a672f3
+      internalID: -75188455
       vertices: []
       indices: 
       edges: []
@@ -506,25 +485,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime Sprite Sheet_0: -1713184976
-      Slime Sprite Sheet_1: -1168507395
-      Slime Sprite Sheet_10: -473497696
-      Slime Sprite Sheet_11: 1325717620
-      Slime Sprite Sheet_12: -1575954784
-      Slime Sprite Sheet_13: 1347971386
-      Slime Sprite Sheet_14: -356916111
-      Slime Sprite Sheet_15: -519821615
-      Slime Sprite Sheet_16: -523938123
-      Slime Sprite Sheet_17: -1314292086
-      Slime Sprite Sheet_18: -1173413790
-      Slime Sprite Sheet_2: -1976998731
-      Slime Sprite Sheet_3: -22849950
-      Slime Sprite Sheet_4: -1937435208
-      Slime Sprite Sheet_5: 623895764
-      Slime Sprite Sheet_6: -688042039
-      Slime Sprite Sheet_7: 1892118277
-      Slime Sprite Sheet_8: -1541144064
-      Slime Sprite Sheet_9: 2048874047
+      Slime Sprite Sheet 4_0: 265968049
+      Slime Sprite Sheet 4_1: -289970287
+      Slime Sprite Sheet 4_10: 751856112
+      Slime Sprite Sheet 4_11: 1857140462
+      Slime Sprite Sheet 4_12: 1398993554
+      Slime Sprite Sheet 4_13: -504417616
+      Slime Sprite Sheet 4_14: -140239832
+      Slime Sprite Sheet 4_15: -1811655912
+      Slime Sprite Sheet 4_16: 1299345343
+      Slime Sprite Sheet 4_17: -75188455
+      Slime Sprite Sheet 4_2: -613522168
+      Slime Sprite Sheet 4_3: -1302735744
+      Slime Sprite Sheet 4_4: 1767767158
+      Slime Sprite Sheet 4_5: 1913635378
+      Slime Sprite Sheet 4_6: -1138683836
+      Slime Sprite Sheet 4_7: -493973807
+      Slime Sprite Sheet 4_8: 1134650636
+      Slime Sprite Sheet 4_9: 2109643683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
