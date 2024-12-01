@@ -4033,6 +4033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 6906589439133315134, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8078698084252202730, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
