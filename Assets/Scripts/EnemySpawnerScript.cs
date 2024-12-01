@@ -29,7 +29,7 @@ public class EnemySpawnerScript : MonoBehaviour
             whereToSpawn = new Vector2(randX,transform.position.y);
             Instantiate(enemy, whereToSpawn,Quaternion.identity);
         }
-        if(count > amount){
+        if(count >= amount){
             Destroy(gameObject);
         }
         
