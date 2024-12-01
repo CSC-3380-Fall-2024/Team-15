@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: upperCut_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1919
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7821082ad1bc3b4da15f5eb1015818f
+      internalID: 1410220445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1917
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3d7cc54d7be4c4898ab644c2e23588
+      internalID: -1155457381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1917
+        width: 59
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8053302d195f8d04ab8e6b2dad66f5ba
+      internalID: 1431189065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1918
+        width: 65
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5230e48ddecefa5488e43eb7e8aaa5a2
+      internalID: 611175946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1918
+        width: 69
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872270b44641f584b8e055c333990945
+      internalID: 703108008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_5
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1918
+        width: 72
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7d91da3af3dbe4c8797c55acf9922c
+      internalID: 1367077006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_6
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1918
+        width: 83
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed90bfe8cc48f442aa322bcdb9aae9c
+      internalID: 1790107860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_7
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1918
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c6ba8eed0b53c4f9cebcf354a59ca6
+      internalID: -1624424491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1662
+        width: 102
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a73e598d7a11594fbaa74b4b425a16b
+      internalID: -1587626977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1662
+        width: 105
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d306eb3415fd10442a38d1b471d9da01
+      internalID: -959681771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_10
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1662
+        width: 105
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b040f71a3009d8c4fa85ae04a39f5f20
+      internalID: -457558227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_11
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1661
+        width: 98
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486d18b32afd76644b957520ee29189a
+      internalID: 2010635084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperCut_12
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1661
+        width: 85
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04016489da89214c8abfd93930921ec
+      internalID: -2103741677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +379,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      upperCut_0: 1410220445
+      upperCut_1: -1155457381
+      upperCut_10: -457558227
+      upperCut_11: 2010635084
+      upperCut_12: -2103741677
+      upperCut_2: 1431189065
+      upperCut_3: 611175946
+      upperCut_4: 703108008
+      upperCut_5: 1367077006
+      upperCut_6: 1790107860
+      upperCut_7: -1624424491
+      upperCut_8: -1587626977
+      upperCut_9: -959681771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
