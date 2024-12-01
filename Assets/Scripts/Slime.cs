@@ -69,11 +69,11 @@ public class Slime : MonoBehaviour
 
         if (transform.position.x > player.position.x)
         {
-            transform.localScale = new Vector3(.1f, .1f, 1);
+            transform.localScale = new Vector3(.15f, .15f, 1);
         }
         else if (transform.position.x < player.position.x)
         {
-            transform.localScale = new Vector3(-.1f, .1f, 1);
+            transform.localScale = new Vector3(-.15f, .15f, 1);
         }
     }
 
