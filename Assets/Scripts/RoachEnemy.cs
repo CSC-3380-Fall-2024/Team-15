@@ -8,7 +8,7 @@ using UnityEngine.Rendering;
 
 public class RoachEnemy : MonoBehaviour
 {
-    private float moveSpeed = 2f;
+    private float moveSpeed = 1f;
     public float chaseRange = 5f;
     public float attackRange = 1.5f;
     private int maxHealth = 50;
