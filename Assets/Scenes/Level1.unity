@@ -3723,6 +3723,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1127342529148628125, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+      propertyPath: jumpPower
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127342529148628125, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5516086831291598923, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3772,6 +3780,18 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 450868083}
+    - target: {fileID: 1591264702473418625, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: chaseRange
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591264702473418625, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: attackRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591264702473418625, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: attackDamage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3321209063311531701, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -3841,6 +3861,18 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 450868083}
+    - target: {fileID: 4196564074239932671, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
+      propertyPath: chaseRange
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196564074239932671, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
+      propertyPath: attackRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196564074239932671, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
+      propertyPath: attackDamage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4368782217472416592, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
       propertyPath: m_Name
       value: SlimeEnemy

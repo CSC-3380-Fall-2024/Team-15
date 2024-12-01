@@ -97,7 +97,7 @@ public class Slime : MonoBehaviour
     }
     private IEnumerator ResetAttack()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.4f);
         Debug.Log("resetting :)");
         isAttacking = false;
     }
