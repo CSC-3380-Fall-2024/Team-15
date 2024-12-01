@@ -783,7 +783,7 @@ Transform:
   m_GameObject: {fileID: 316528004}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 554.12, y: 162.72, z: -10}
+  m_LocalPosition: {x: 554, y: 162.72, z: -10}
   m_LocalScale: {x: 2.1364, y: 63.95937, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1095,7 +1095,7 @@ Transform:
   m_GameObject: {fileID: 445936091}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 312.17, y: 162.62, z: -10}
+  m_LocalPosition: {x: 312.33, y: 162.62, z: -10}
   m_LocalScale: {x: 3.6252573, y: 63.580673, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2859,7 +2859,7 @@ Transform:
   m_GameObject: {fileID: 1362626523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 320.52475, y: 161.99278, z: -10}
+  m_LocalPosition: {x: 319.75763, y: 161.99289, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3432,6 +3432,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1709161977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5516086831291598923, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+  m_PrefabInstance: {fileID: 1684032366112408282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1709161986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709161977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3642ebbac87ca4465a595c95a2d5c5f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 6
+  maxStrength: 12
 --- !u!1 &1731551115
 GameObject:
   m_ObjectHideFlags: 0
@@ -4236,6 +4255,10 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4656267917490222000, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+      propertyPath: damget
+      value: 
+      objectReference: {fileID: 1709161986}
     - target: {fileID: 5516086831291598923, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4271,7 +4294,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5516086831291598923, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1709161986}
   m_SourcePrefab: {fileID: 100100000, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
 --- !u!1001 &4785560262574672454
 PrefabInstance:
@@ -4384,6 +4410,10 @@ PrefabInstance:
     - target: {fileID: 4368782217472416592, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
       propertyPath: m_Name
       value: SlimeEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6906589439133315134, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8078698084252202730, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
       propertyPath: m_LocalScale.x
