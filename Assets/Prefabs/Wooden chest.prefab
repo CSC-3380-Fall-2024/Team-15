@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 502422679
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 323043094, guid: 3c4c2a91426e4b6408a0a9c5469010dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -124,6 +124,8 @@ MonoBehaviour:
   - {fileID: 6072162259058535518, guid: f4650fd01580cc842b348569f513f684, type: 3}
   - {fileID: 2757476935506146275, guid: da095cb0d45549d41a39d58dff075dcc, type: 3}
   - {fileID: 5859882167657495503, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
+  - {fileID: 6512630210460099626, guid: 8ef18e9e681cf405abdd116be10e64aa, type: 3}
+  - {fileID: 5739205042202244096, guid: cf84c3c19ad5745cda8d1bd5b4acf392, type: 3}
   - {fileID: 6512630210460099626, guid: 8ef18e9e681cf405abdd116be10e64aa, type: 3}
   chestAnimator: {fileID: 4546601824572615934}
   openDelay: 0.5
