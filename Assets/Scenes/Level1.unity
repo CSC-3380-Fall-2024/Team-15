@@ -469,6 +469,8 @@ MonoBehaviour:
   droppedItemPrefab: {fileID: 1181205084382029758, guid: cf0b43a67aadf479e9024f61a9c9fa29, type: 3}
   lootList:
   - {fileID: 11400000, guid: 01fc602dbb76b4bc8857045583894ff3, type: 2}
+  - {fileID: 11400000, guid: 080bf1fa847aa4207aed0c0f27f2cfdb, type: 2}
+  - {fileID: 11400000, guid: ef093638d05eb44d5b876c772625223e, type: 2}
 --- !u!1 &316528004
 GameObject:
   m_ObjectHideFlags: 0

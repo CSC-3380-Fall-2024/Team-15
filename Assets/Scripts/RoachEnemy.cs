@@ -89,7 +89,7 @@ public class RoachEnemy : MonoBehaviour
         if ( playerHealth != null)
         {
             playerHealth.Damage(attackDamage);
-            Die();
+            
         }
       
         StartCoroutine(ResetAttack());
