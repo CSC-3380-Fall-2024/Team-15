@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &256327716285942704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6273994373532234688}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6273994373532234688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256327716285942704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03, y: -1.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8078698084252202730}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &798313979993216849
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,6 +262,8 @@ GameObject:
   - component: {fileID: 4196564074239932671}
   - component: {fileID: 6906589439133315134}
   - component: {fileID: 6295490764693318487}
+  - component: {fileID: 6398278800550402600}
+  - component: {fileID: 8476109184067337784}
   m_Layer: 0
   m_Name: SlimeEnemy
   m_TagString: Untagged
@@ -247,11 +280,12 @@ Transform:
   m_GameObject: {fileID: 4368782217472416592}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 322.84, y: 160.94, z: 4.0162883}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalPosition: {x: 341.91, y: 161.13, z: 4.02}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4606291189502007127}
+  - {fileID: 6273994373532234688}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7182396373696994892
@@ -321,7 +355,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -345,10 +379,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd1f0716fb388bd458f053c3fb10949a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseRange: 4
+  moveSpeed: 2
+  chaseRange: 0
   attackRange: 1
   attackDamage: 5
   target: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  jumpHeight: 12
+  groundCheck: {fileID: 6273994373532234688}
+  boxSize: {x: 0.7, y: 0.05}
+  lineOfSite: {x: 10, y: 8}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!70 &6906589439133315134
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -398,6 +443,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 7940721531282810174, guid: 8d4e1189307cb49b5a8ffda3ec8f7398, type: 3}
   health: 100
+--- !u!114 &6398278800550402600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368782217472416592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6150cc920686a694e84d7a933cd6bfab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  health: 100
+--- !u!95 &8476109184067337784
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368782217472416592}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94f5dbba2147e49858445d05a336a1ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7061026917650985202
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +535,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
