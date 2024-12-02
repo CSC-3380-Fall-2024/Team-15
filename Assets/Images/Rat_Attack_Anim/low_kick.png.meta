@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: low_kick_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1919
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566cd408fe7075d4d9f5286cffa0ce01
+      internalID: -1139367664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1919
+        width: 61
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f92c4c619ccbb3468f52e93b47b20e1
+      internalID: -691682518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1918
+        width: 67
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fe4b6890743c74fbf74d50723d966c
+      internalID: 1225922317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_3
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1918
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e493f1d91b0430d43947a9c7091e15eb
+      internalID: 46147704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1918
+        width: 79
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7248ab7c2a180b9408458b6cae8c5ce0
+      internalID: -1395440597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_5
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1918
+        width: 86
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec3fdafa9d50845a8a370826b71482
+      internalID: -833859923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_6
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1917
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85dcfe78069ddf42927efca6d125667
+      internalID: 1331091811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_7
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1916
+        width: 123
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb17357fc81db294fa4980b22c290110
+      internalID: -1257538770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1661
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac8873e903c8bf49aa11f2617f77e6a
+      internalID: 857600411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1662
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ab834ec3a645429edaa5a6ab2607d
+      internalID: 2122558985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1663
+        width: 78
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527218f8b1d5500478693080e7341d88
+      internalID: -383807537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: low_kick_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1663
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb958bcaab8afe4793bc280d552ab6a
+      internalID: 813612243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +358,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      low_kick_0: -1139367664
+      low_kick_1: -691682518
+      low_kick_10: -383807537
+      low_kick_11: 813612243
+      low_kick_2: 1225922317
+      low_kick_3: 46147704
+      low_kick_4: -1395440597
+      low_kick_5: -833859923
+      low_kick_6: 1331091811
+      low_kick_7: -1257538770
+      low_kick_8: 857600411
+      low_kick_9: 2122558985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

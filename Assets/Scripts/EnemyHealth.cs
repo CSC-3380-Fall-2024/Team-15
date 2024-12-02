@@ -9,6 +9,18 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int health = 100;
     private int MaxHealth = 100;
 
+    private void Start(){
+        health = MaxHealth;
+        healthBar.UpdateHealthBar(health,MaxHealth);
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            Damage(10);
+        }
+    }
+    
     public void Damage(int amount)
     {
         if(amount < 0)
@@ -16,12 +28,13 @@ public class EnemyHealth : MonoBehaviour
             throw new System.ArgumentOutOfRangeException("Cannot have negative damage.");
         }
         this.health -= amount;
+        healthBar.UpdateHealthBar(health, MaxHealth);
 
         if (health <= 0)
         {
             Die();
         }
-        healthBar.UpdateHealthBar(health, MaxHealth);
+        
     }
 
     public void Heal(int amount)

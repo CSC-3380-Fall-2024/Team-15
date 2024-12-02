@@ -6,6 +6,9 @@ public class PlayerAttack : MonoBehaviour
 {
     private GameObject attackArea = default;
     private bool attacking = false;
+    private bool shortkicking = false;
+    private bool roundhousing = false;
+    private bool uppercutting = false;
     private float timeToAttack = 0.25f;
     private float timer = 0f;
     Animator animator;
@@ -26,6 +29,21 @@ public class PlayerAttack : MonoBehaviour
             Attack();
         }
 
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            ShortKick();
+        }
+
+        if(Input.GetKeyDown(KeyCode.L))
+        {
+            Roundhouse();
+        }
+
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            Uppercut();
+        }
+
         if(attacking)
         {
             timer += Time.deltaTime;
@@ -38,6 +56,45 @@ public class PlayerAttack : MonoBehaviour
                 attackArea.SetActive(attacking);
             }
         }
+
+        if(shortkicking)
+        {
+            timer += Time.deltaTime;
+
+            if(timer >= timeToAttack)
+            {
+                timer = 0;
+                shortkicking = false;
+                animator.SetBool("isShortKicking", shortkicking);
+                attackArea.SetActive(shortkicking);
+            }
+        }
+
+        if(roundhousing)
+        {
+            timer += Time.deltaTime;
+
+            if(timer >= timeToAttack)
+            {
+                timer = 0;
+                roundhousing = false;
+                animator.SetBool("isRoundhousing", roundhousing);
+                attackArea.SetActive(roundhousing);
+            }
+        }
+
+        if(uppercutting)
+        {
+            timer += Time.deltaTime;
+
+            if(timer >= timeToAttack)
+            {
+                timer = 0;
+                uppercutting = false;
+                animator.SetBool("isUppercutting", uppercutting);
+                attackArea.SetActive(uppercutting);
+            }
+        }
     }
 
     private void Attack()
@@ -45,5 +102,26 @@ public class PlayerAttack : MonoBehaviour
         attacking = true;
         animator.SetBool("isAttacking", attacking);
         attackArea.SetActive(attacking);
+    }
+
+    private void ShortKick()
+    {
+        shortkicking = true;
+        animator.SetBool("isShortKicking", shortkicking);
+        attackArea.SetActive(shortkicking);
+    }
+
+    private void Roundhouse()
+    {
+        roundhousing = true;
+        animator.SetBool("isRoundhousing", roundhousing);
+        attackArea.SetActive(roundhousing);
+    }
+
+    private void Uppercut()
+    {
+        uppercutting = true;
+        animator.SetBool("isUppercutting", uppercutting);
+        attackArea.SetActive(uppercutting);
     }
 }
