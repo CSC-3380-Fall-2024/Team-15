@@ -809,6 +809,51 @@ MonoBehaviour:
   camera: {fileID: 1362626525}
   target: {fileID: 266716624}
   offset: {x: 0, y: 0, z: 0}
+--- !u!61 &266716632
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266716616}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019260049, y: -0.09602368}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.2425, y: 10.24}
+    newSize: {x: 10.2425, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0537922, y: 2.5131223}
+  m_EdgeRadius: 0
 --- !u!1001 &282549190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -973,6 +1018,51 @@ MonoBehaviour:
   camera: {fileID: 1362626525}
   target: {fileID: 302792964}
   offset: {x: 0, y: 0, z: 0}
+--- !u!61 &302792972
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302792957}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.051303357, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2267084, y: 0.99807274}
+  m_EdgeRadius: 0
 --- !u!1 &316528004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,6 +2269,22 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 1362626525}
+    - target: {fileID: 8897298582757591720, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.94139105
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897298582757591720, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4754107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897298582757591720, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.024854004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897298582757591720, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.041704774
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4011,6 +4117,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Size.x
+      value: 2.781575
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Size.y
+      value: 2.6963303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.1658796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.24866283
+      objectReference: {fileID: 0}
     - target: {fileID: 6331262794285004690, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -4059,14 +4181,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6295490764693318487, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4368782217472416592, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 266716625}
+    - targetCorrespondingSourceObject: {fileID: 4368782217472416592, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 266716632}
   m_SourcePrefab: {fileID: 100100000, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
 --- !u!1 &1541250617
 GameObject:
@@ -5173,6 +5297,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Size.x
+      value: 3.0238853
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Size.y
+      value: 3.3495078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.16397262
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907094599153149213, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.08206707
+      objectReference: {fileID: 0}
     - target: {fileID: 6331262794285004690, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -5674,12 +5814,16 @@ PrefabInstance:
       objectReference: {fileID: 1362626525}
     m_RemovedComponents:
     - {fileID: 3135503176340677562, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+    - {fileID: 8897298582757591720, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4298369576384395153, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 302792965}
+    - targetCorrespondingSourceObject: {fileID: 4298369576384395153, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 302792972}
   m_SourcePrefab: {fileID: 100100000, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
 --- !u!1001 &7600797245165253114
 PrefabInstance:

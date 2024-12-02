@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAttackArea : MonoBehaviour
 {
     public Strength damget;
-    private int damage;
+    private int damage = 5;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
