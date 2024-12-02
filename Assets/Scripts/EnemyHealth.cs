@@ -13,7 +13,14 @@ public class EnemyHealth : MonoBehaviour
         health = MaxHealth;
         healthBar.UpdateHealthBar(health,MaxHealth);
     }
-
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            Damage(10);
+        }
+    }
+    
     public void Damage(int amount)
     {
         if(amount < 0)

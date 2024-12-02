@@ -7,8 +7,6 @@ public class PlayerAttackArea : MonoBehaviour
     public Strength damget;
     private int damage;
 
-
-    
     private void OnTriggerEnter2D(Collider2D collider)
     {
         damget.strength = damage;
