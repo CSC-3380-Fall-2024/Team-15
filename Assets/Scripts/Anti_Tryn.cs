@@ -2,21 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Anti_Tryn : MonoBehaviour
+public class Anti_Tryn : MonoBehaviour,IPowerUp
 {
-    public int multiplier = 2;
-    void OnTriggerEnter2D (Collider2D other)
+ public int multiplier = 2;
+    public float duration = 6f;
+    public void Activate(GameObject player)
     {
-        if (other.CompareTag("Player"))
-        {
-            Pickup(other);
-        }
+        Strength playerScript = player.GetComponent<Strength>();
+         if (playerScript != null)
+          {
+            playerScript.StartCoroutine(DecreaseStrength(playerScript));
+          }
+          Destroy(gameObject);
     }
-    void Pickup(Collider2D player)
+   private IEnumerator DecreaseStrength(Strength playerScript)
     {
        
-       Strength playerScript = player.GetComponent<Strength>();
        playerScript.decreasesDamage(multiplier);
-        Destroy(gameObject);
+       GetComponent<Collider2D>().enabled = false;
+       GetComponent<SpriteRenderer>().enabled = false;
+       yield return new WaitForSeconds(duration);
+          
+        playerScript.strength /= multiplier;
+        
     }
 }
