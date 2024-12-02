@@ -144,7 +144,11 @@ PlatformEffector2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RotationalOffset: 0
+<<<<<<< HEAD
   m_UseOneWay: 1
+=======
+  m_UseOneWay: 0
+>>>>>>> parent of 27a061f (Merge branch 'main' of https://github.com/CSC-3380-Fall-2024/Team-15 into Level1SceneWork)
   m_UseOneWayGrouping: 0
   m_SurfaceArc: 180
   m_UseSideFriction: 0
