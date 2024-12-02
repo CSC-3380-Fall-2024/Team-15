@@ -8,7 +8,7 @@ using UnityEngine.Rendering;
 
 public class Slime : MonoBehaviour
 {
-    private float moveSpeed = 1.5f;
+    public float moveSpeed = 1.5f;
     public float chaseRange = 5f;
     public float attackRange = 1.5f;
     private int maxHealth = 50;
@@ -20,6 +20,16 @@ public class Slime : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public Transform target;
+
+    [SerializeField] LayerMask groundLayer;
+    [SerializeField] float jumpHeight;
+    [SerializeField] Transform groundCheck;
+    [SerializeField] Vector2 boxSize;
+    private bool isGrounded;
+
+    [SerializeField] Vector2 lineOfSite;
+    [SerializeField] LayerMask playerLayer;
+    private bool canSeePlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -75,8 +85,31 @@ public class Slime : MonoBehaviour
         {
             transform.localScale = new Vector3(-.15f, .15f, 1);
         }
+
     }
 
+    void FixedUpdate() 
+    {
+        isGrounded = Physics2D.OverlapBox(groundCheck.position, boxSize, 0, groundLayer);
+        canSeePlayer = Physics2D.OverlapBox(transform.position, lineOfSite, 0, playerLayer);
+        bool isPlayerAbove = Physics2D.Raycast(transform.position, Vector2.up, 3f, 1 << player.gameObject.layer);
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if(distanceToPlayer > 3.5 && canSeePlayer && isGrounded)
+        {
+            JumpAttack();
+        }
+        
+    }
+
+    void JumpAttack()
+    {
+        float distanceFromPlayer = player.position.x - transform.position.x;
+
+        if(isGrounded)
+        {
+            rb.AddForce(new Vector2(distanceFromPlayer, jumpHeight), ForceMode2D.Impulse);
+        }
+    }
     private void MoveTowardsTarget()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
@@ -132,6 +165,14 @@ public class Slime : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawCube(groundCheck.position, boxSize);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(transform.position, lineOfSite);
     }
 }
 
