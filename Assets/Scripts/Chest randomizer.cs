@@ -46,7 +46,10 @@ public class Chestrandomizer : MonoBehaviour
         randomPowerUp.SetActive(true);
         GameObject spawnedPowerUp = Instantiate(randomPowerUp, spawnPosition, Quaternion.identity);
         Destroy(gameObject);
+
+       //yield return new WaitForSeconds(1f);
        Debug.Log("Selected Power-Up: " + randomPowerUp.name);
+      // Destroy(gameObject);
        isOpening = false;
     }
    
