@@ -2062,6 +2062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoachEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7940721531282810174, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1362626525}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2398,6 +2402,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2466699981130471481, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1362626525}
     - target: {fileID: 4196564074239932671, guid: 0357b0356d59a401b9f4388b5bd716bb, type: 3}
       propertyPath: target
       value: 
