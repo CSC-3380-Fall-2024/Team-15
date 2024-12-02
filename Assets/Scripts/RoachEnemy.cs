@@ -90,6 +90,7 @@ public class RoachEnemy : MonoBehaviour
         if (playerHealth != null)
         {
             playerHealth.Damage(attackDamage);
+            
         }
 
         StartCoroutine(ResetAttack());
@@ -131,6 +132,7 @@ public class RoachEnemy : MonoBehaviour
 
     private void Die()
     {
+        GetComponent<LootBag>().InstantiateLoot(transform.position);
         Destroy(gameObject);
     }
 }
