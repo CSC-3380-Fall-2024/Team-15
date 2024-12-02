@@ -8,8 +8,8 @@ using UnityEngine.Rendering;
 
 public class RoachEnemy : MonoBehaviour
 {
-    private float moveSpeed = 1.5f;
-    public float chaseRange = 5f;
+    private float moveSpeed = 2f;
+    public float chaseRange = 5f; 
     public float attackRange = 1.5f;
     private int maxHealth = 50;
     private int currentHealth;
@@ -20,7 +20,7 @@ public class RoachEnemy : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public Transform target;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,35 +33,34 @@ public class RoachEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player == null) return;
+        if(player == null) return;
+            
+        if(currentHealth <= 0) Die();
 
-        if (currentHealth <= 0) Die();
-
-        if (Input.GetKeyDown(KeyCode.U))
+          if(Input.GetKeyDown(KeyCode.U))
         {
             TakeDamage(10);
         }
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceToPlayer = Vector2.Distance(transform.position,player.position);
 
-        if (distanceToPlayer < chaseRange)
+        if(distanceToPlayer < chaseRange)
         {
             isChasing = true;
         }
-        else
-        {
+        else{
             isChasing = false;
         }
 
-        if (distanceToPlayer < attackRange && !isAttacking)
+        if(distanceToPlayer < attackRange && !isAttacking)
         {
             Attack();
         }
-
+        
         if (isChasing && !isAttacking)
         {
             MoveTowardPlayer();
         }
-
+        
         if (Vector3.Distance(transform.position, target.position) > 1f)
         {
             MoveTowardsTarget();
@@ -73,13 +72,13 @@ public class RoachEnemy : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
     }
-
+     
     private void RotateTowardsTarget()
     {
         var offset = 90f;
         Vector2 direction = transform.position - target.position;
         direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;       
         transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
     }
     private void Attack()
@@ -87,18 +86,18 @@ public class RoachEnemy : MonoBehaviour
         Debug.Log("Attack");
         isAttacking = true;
         Health playerHealth = player.GetComponent<Health>();
-        if (playerHealth != null)
+        if ( playerHealth != null)
         {
             playerHealth.Damage(attackDamage);
             
         }
-
+      
         StartCoroutine(ResetAttack());
-
+    
     }
     private IEnumerator ResetAttack()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.2f);
         Debug.Log("resetting :)");
         isAttacking = false;
     }
@@ -125,8 +124,8 @@ public class RoachEnemy : MonoBehaviour
     {
         if (player != null)
         {
-            Vector2 direction = (player.position - transform.position).normalized; // Get direction
-            rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y);
+             Vector2 direction = (player.position - transform.position).normalized; // Get direction
+             rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y);
         }
     }
 

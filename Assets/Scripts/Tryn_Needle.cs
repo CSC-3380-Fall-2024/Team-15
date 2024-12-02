@@ -3,29 +3,22 @@ using System.Collections.Generic;
 using UnityEditor.Build;
 using UnityEngine;
 
-public class Tryn_Needle : MonoBehaviour,IPowerUp
+public class Tryn_Needle : MonoBehaviour
 {
    
     public int multiplier = 2;
-    public float duration = 6f;
-    public void Activate(GameObject player)
+    void OnTriggerEnter2D (Collider2D other)
     {
-        Strength playerScript = player.GetComponent<Strength>();
-         if (playerScript != null)
-          {
-            playerScript.StartCoroutine(ApplyStrength(playerScript));
-          }
-          Destroy(gameObject);
+        if (other.CompareTag("Player"))
+        {
+            Pickup(other);
+        }
     }
-   private IEnumerator ApplyStrength(Strength playerScript)
+    void Pickup(Collider2D player)
     {
        
+       Strength playerScript = player.GetComponent<Strength>();
        playerScript.increasesDamage(multiplier);
-       GetComponent<Collider2D>().enabled = false;
-       GetComponent<SpriteRenderer>().enabled = false;
-       yield return new WaitForSeconds(duration);
-          
-        playerScript.strength /= multiplier;
-        
+        Destroy(gameObject);
     }
 }
