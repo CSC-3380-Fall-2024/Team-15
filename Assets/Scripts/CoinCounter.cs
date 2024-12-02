@@ -7,6 +7,8 @@ public class CoinCounter : MonoBehaviour
 {
     public int coinCount;
     public TMP_Text coinText;
+    public GameObject door;
+    private bool doorDestroyed;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +19,10 @@ public class CoinCounter : MonoBehaviour
     void Update()
     {
         coinText.text = "Coin Count: " + coinCount.ToString();
+
+        if(coinCount == 8 && !doorDestroyed)
+        {
+            Destroy(door);
+        }
     }
 }
