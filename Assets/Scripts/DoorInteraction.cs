@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorInteraction : MonoBehaviour
 {
-    private string bossFightSceneName = "BossFight";
+    private string bossFightSceneName = "Level1BossArea";
     private bool playerInRange = false;
     // Start is called before the first frame update
     
@@ -31,7 +31,7 @@ public class DoorInteraction : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             playerInRange = true;
-            Debug.Log("Press 'E'to enter Boss fight");
+            Debug.Log("Press 'E' to enter Boss fight");
         }
     }
 }
