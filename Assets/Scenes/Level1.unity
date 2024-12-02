@@ -5708,6 +5708,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5522013498786345517, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6017382157047147289, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: healthBar
       value: 
