@@ -15,7 +15,7 @@ public class CoinCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        coinText.text = "Coin Count: " + coinCount.ToString();
+        coinText.text = "Cheese Count: " + coinCount.ToString();
 
         if(coinCount == 8 && !doorUnlocked)
         {
