@@ -15,5 +15,10 @@ public class PlayerAttackArea : MonoBehaviour
             EnemyHealth health = collider.GetComponent<EnemyHealth>();
             health.Damage(damage);
         }
+        if(collider.GetComponent<BossHealth>() != null)
+        {
+            BossHealth health = collider.GetComponent<BossHealth>();
+            health.Damage(damage);
+        }
     }
 }
