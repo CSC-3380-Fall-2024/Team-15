@@ -31,7 +31,7 @@ public class DoorInteraction : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             playerInRange = true;
-            Debug.Log("Press 'E' to enter Boss fight");
+            Debug.Log("Press 'O' to enter Boss fight");
         }
     }
 }

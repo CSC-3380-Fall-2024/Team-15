@@ -7,13 +7,18 @@ using UnityEngine;
 public class CheeseToken : MonoBehaviour
 {
 
-    public CoinCounter cm;
+    public CoinCounter coinCounter;
+
+    void Start()
+    {
+        coinCounter = GameObject.Find("GameManager").GetComponent<CoinCounter>();
+    }
     
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-           cm.coinCount++;
+           coinCounter.coinCount++;
            Destroy(gameObject);
            
         }
