@@ -11,7 +11,7 @@ public class Boss : MonoBehaviour
     private Transform player;
     private bool isChasing = false;
     private bool isAttacking = false;
-    public int attackDamage = 8;
+    public int attackDamage = 15;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public Transform target;
