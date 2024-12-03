@@ -1218,7 +1218,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   chaseRange: 5
   attackRange: 1.5
-  attackDamage: 8
+  attackDamage: 15
   target: {fileID: 535132971}
 --- !u!95 &870275887
 Animator:
