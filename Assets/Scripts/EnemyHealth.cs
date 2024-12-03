@@ -6,8 +6,8 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] FloatingHealthbar healthBar;
-    [SerializeField] private int health = 100;
-    private int MaxHealth = 100;
+    private int health = 100;
+    public int MaxHealth = 100;
 
     private void Start(){
         health = MaxHealth;
@@ -61,6 +61,7 @@ public class EnemyHealth : MonoBehaviour
 
    private void Die()
    {
+    GetComponent<LootBag>().InstantiateLoot(transform.position);
     Debug.Log("I am Dead!");
     Destroy(gameObject);
    }

@@ -8,21 +8,28 @@ public class CoinCounter : MonoBehaviour
     public int coinCount;
     public TMP_Text coinText;
     public GameObject door;
-    private bool doorDestroyed;
+    private bool doorUnlocked;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
     {
-        coinText.text = "Coin Count: " + coinCount.ToString();
+        coinText.text = "Cheese Count: " + coinCount.ToString();
 
-        if(coinCount == 8 && !doorDestroyed)
+        if(coinCount == 8 && !doorUnlocked)
         {
-            Destroy(door);
+            UnlockDoor();
         }
     }
+        
+        private void UnlockDoor()
+        {
+            Collider2D doorCollider = door.GetComponent<Collider2D>();
+            doorCollider.isTrigger = true;
+            doorUnlocked = true;
+
+            
+        }
+    
 }

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: heavy attack_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1929
+        width: 91
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a10fe3b7f924f5ca949bd1d7b0368e
+      internalID: 225550027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1897
+        width: 134
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69180e794e9104017a1965fd044b305f
+      internalID: -1331864751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_2
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1903
+        width: 138
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a864c8f87294d18a2193a726bde3af
+      internalID: 1070218978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1909
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdf0a708d64741ce981dd91518dd1b8
+      internalID: -1435641710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1915
+        width: 146
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e62083375fc04c97a57a922be277c44
+      internalID: -930066962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1921
+        width: 145
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df28bb15ce148628a38be1779df3c5
+      internalID: -980855561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1928
+        width: 144
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b92f067c980499cb40dd7220c121f0
+      internalID: -1746904157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1935
+        width: 142
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ad8b68439e146a8a81f50bf46a461f
+      internalID: 1872116006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1685
+        width: 141
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0072807464849eeb986e0d908a0ba1
+      internalID: -412883213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1685
+        width: 144
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7853f2d8ac486b9a6abcbda2210ee
+      internalID: -710113944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1665
+        width: 140
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9815bd541d8a4577ae3701f515e9c41
+      internalID: 646600448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_11
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1639
+        width: 127
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1cd3a85ee294003b3340fdbc46757d
+      internalID: 280360018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_12
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1618
+        width: 105
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c818e44b6fe49628a0364ac1d90871
+      internalID: 1452220830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_13
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1685
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4a1335b77dd4ad6bb848f6dac901b9
+      internalID: -1035726571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_14
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1685
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1364ab505c6944b3a1b360da986f4de
+      internalID: -540800348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_15
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1685
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25d7a92aaf946b797bf8bcd4db2075
+      internalID: -149253670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1429
+        width: 87
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9019706aa6f0648959a0126e420657ea
+      internalID: -328441238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1342
+        width: 87
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1ea9c2b16294847ae471df1b88bf12
+      internalID: -1997702385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_18
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1342
+        width: 87
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e9cd7941d344b93925f727c9ca7c62
+      internalID: -73950755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1346
+        width: 86
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5dec82b72d540c5bbc9a305379193a
+      internalID: 1617006926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1353
+        width: 89
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0d30798af7a4d75b720e73f0cd125f
+      internalID: 1116220108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_21
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1364
+        width: 107
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697bf2f57f24e4db9b3b588c0b939494
+      internalID: -383411508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_22
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1378
+        width: 123
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b39d0290594a609b6716928577e32
+      internalID: -399656133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_23
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1395
+        width: 139
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a613112b9db6e4300829cb61bdf86b9f
+      internalID: 1688014376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a5c35078c4a407dbcaee02a63f52b9
+      internalID: -1080577252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +631,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy attack_0: 225550027
+      heavy attack_1: -1331864751
+      heavy attack_10: 646600448
+      heavy attack_11: 280360018
+      heavy attack_12: 1452220830
+      heavy attack_13: -1035726571
+      heavy attack_14: -540800348
+      heavy attack_15: -149253670
+      heavy attack_16: -328441238
+      heavy attack_17: -1997702385
+      heavy attack_18: -73950755
+      heavy attack_19: 1617006926
+      heavy attack_2: 1070218978
+      heavy attack_20: 1116220108
+      heavy attack_21: -383411508
+      heavy attack_22: -399656133
+      heavy attack_23: 1688014376
+      heavy attack_24: -1080577252
+      heavy attack_3: -1435641710
+      heavy attack_4: -930066962
+      heavy attack_5: -980855561
+      heavy attack_6: -1746904157
+      heavy attack_7: 1872116006
+      heavy attack_8: -412883213
+      heavy attack_9: -710113944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,36 +1,75 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
-    public int health = 500;
+    [SerializeField] FloatingHealthbar healthBar;
+    private int health = 100;
+    public int MaxHealth = 100;
+    public GameManagerScript gameManager;
 
-    public GameObject deathEffect;
-
-    public bool isInvulnerable = false;
-
-    public void TakeDamage(int damage)
+    private void Start()
     {
-        if (isInvulnerable)
-            return;
-
-        health -= damage;
-
-        if (health <= 200)
+        health = MaxHealth;
+        healthBar.UpdateHealthBar(health, MaxHealth);
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.U))
         {
-            GetComponent<Animator>().SetBool("IsEnraged", true);
+            Damage(10);
         }
+    }
+
+    public void Damage(int amount)
+    {
+        if (amount < 0)
+        {
+            throw new System.ArgumentOutOfRangeException("Cannot have negative damage.");
+        }
+        this.health -= amount;
+        healthBar.UpdateHealthBar(health, MaxHealth);
 
         if (health <= 0)
         {
             Die();
+            SceneManager.LoadScene("LevelSelect");
         }
+
     }
 
-    void Die()
+    public void Heal(int amount)
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        if (amount < 0)
+        {
+            throw new System.ArgumentOutOfRangeException("Cannot have negative healing.");
+        }
+
+        bool wouldBeOverMaxHealth = health + amount > MaxHealth;
+
+        if (wouldBeOverMaxHealth)
+        {
+            this.health = MaxHealth;
+        }
+        else
+        {
+            this.health += amount;
+        }
+
+        health = Mathf.Min(health + amount, MaxHealth);
+        healthBar.UpdateHealthBar(health, MaxHealth);
+    }
+
+    private void Die()
+    {
+        Debug.Log("I am Dead!");
         Destroy(gameObject);
+    }
+
+    private void Awake()
+    {
+        healthBar = GetComponentInChildren<FloatingHealthbar>();
     }
 }
