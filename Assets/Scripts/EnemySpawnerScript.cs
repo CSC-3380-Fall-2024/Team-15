@@ -10,28 +10,30 @@ public class EnemySpawnerScript : MonoBehaviour
     public int pA;
     public int pB;
     Vector2 whereToSpawn;
-    public float spawnRate =2f;
+    public float spawnRate = 2f;
     float nextSpawn = 0.0f;
-   
-   public int amount;
-        void Start()
+
+    public int amount;
+    void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if(Time.time > nextSpawn){
-            nextSpawn  = Time.time + spawnRate;
-            randX = Random.Range(pA,pB);
-            whereToSpawn = new Vector2(randX,transform.position.y);
-            Instantiate(enemy, whereToSpawn,Quaternion.identity);
+
+        if (Time.time > nextSpawn)
+        {
+            nextSpawn = Time.time + spawnRate;
+            randX = Random.Range(pA, pB);
+            whereToSpawn = new Vector2(randX, transform.position.y);
+            Instantiate(enemy, whereToSpawn, Quaternion.identity);
         }
-        if(Count.coinCount >= amount){
+        if (Count.coinCount >= amount)
+        {
             Destroy(gameObject);
         }
-        
+
     }
 }
