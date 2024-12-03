@@ -8,6 +8,7 @@ public class Inventory : MonoBehaviour
     public List<IPowerUp> inventory = new List<IPowerUp>();
     public int maxInventorySize = 1;
     private GameObject currentPowerup;
+    public InventoryUI inventoryUI;
     void OnTriggerEnter2D (Collider2D other)
     {
        IPowerUp powerUp = other.GetComponent<IPowerUp>();
@@ -36,10 +37,12 @@ public class Inventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X) && currentPowerup != null && inventory.Count < maxInventorySize )
         {
             PickupPowerUp();
+            inventoryUI.UpdateInventoryUI();
         }
         if (Input.GetKeyDown(KeyCode.O) && inventory.Count > 0)
         {
             DropPowerUp(0);
+            inventoryUI.UpdateInventoryUI();
         }
     }
     void PickupPowerUp()
@@ -65,6 +68,7 @@ public class Inventory : MonoBehaviour
         IPowerUp powerUp = inventory[index];
         powerUp.Activate(gameObject);
         inventory.RemoveAt(index);
+        inventoryUI.UpdateInventoryUI();
     }
 
     void DropPowerUp(int index)
@@ -80,5 +84,6 @@ public class Inventory : MonoBehaviour
             Debug.Log($"Dropped: {powerUpObj.name}");
         }
         inventory.RemoveAt(index);
+        inventoryUI.UpdateInventoryUI();
     }
 }

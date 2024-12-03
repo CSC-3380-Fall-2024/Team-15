@@ -8,9 +8,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4452718229762109485, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4452718229762109485, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223520064982460592, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e16708e38adc95f40bcec87b11e49b05, type: 3}
     - target: {fileID: 5859882167657495503, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
       propertyPath: m_Name
       value: Tryn_Needle  Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627337534767797334, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627337534767797334, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6627337534767797334, guid: f6c8210db74443647b7605e334f8ec7d, type: 3}
       propertyPath: m_LocalPosition.x
