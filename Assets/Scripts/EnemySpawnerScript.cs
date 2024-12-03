@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemySpawnerScript : MonoBehaviour
 {
+    public CoinCounter Count;
     public GameObject enemy;
     float randX;
     public int pA;
@@ -11,7 +12,7 @@ public class EnemySpawnerScript : MonoBehaviour
     Vector2 whereToSpawn;
     public float spawnRate =2f;
     float nextSpawn = 0.0f;
-    int count = 0;
+   
    public int amount;
         void Start()
     {
@@ -23,13 +24,12 @@ public class EnemySpawnerScript : MonoBehaviour
     {
         
         if(Time.time > nextSpawn){
-            count++;
             nextSpawn  = Time.time + spawnRate;
             randX = Random.Range(pA,pB);
             whereToSpawn = new Vector2(randX,transform.position.y);
             Instantiate(enemy, whereToSpawn,Quaternion.identity);
         }
-        if(count >= amount){
+        if(Count.coinCount >= amount){
             Destroy(gameObject);
         }
         
