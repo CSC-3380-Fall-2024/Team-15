@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttackArea : MonoBehaviour
+public class PlayerJab : MonoBehaviour
 {
     public Strength damget;
     private int damage = 5;
