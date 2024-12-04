@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private GameObject attackArea = default;
+    private GameObject attackAreaJab = default;
+    private GameObject attackAreaBKick = default;
+    private GameObject attackAreaSKick = default;
+    private GameObject attackAreaUpper = default;
     private bool attacking = false;
     private bool shortkicking = false;
     private bool roundhousing = false;
@@ -16,7 +19,10 @@ public class PlayerAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        attackArea = transform.GetChild(0).gameObject;
+        attackAreaJab = transform.GetChild(0).gameObject;
+        attackAreaBKick = transform.GetChild(1).gameObject;
+        attackAreaSKick = transform.GetChild(2).gameObject;
+        attackAreaUpper = transform.GetChild(3).gameObject;
         animator = GetComponent<Animator>();
 
     }
@@ -53,7 +59,7 @@ public class PlayerAttack : MonoBehaviour
                 timer = 0;
                 attacking = false;
                 animator.SetBool("isAttacking", attacking);
-                attackArea.SetActive(attacking);
+                attackAreaJab.SetActive(attacking);
             }
         }
 
@@ -66,7 +72,7 @@ public class PlayerAttack : MonoBehaviour
                 timer = 0;
                 shortkicking = false;
                 animator.SetBool("isShortKicking", shortkicking);
-                attackArea.SetActive(shortkicking);
+                attackAreaSKick.SetActive(shortkicking);
             }
         }
 
@@ -79,7 +85,7 @@ public class PlayerAttack : MonoBehaviour
                 timer = 0;
                 roundhousing = false;
                 animator.SetBool("isRoundhousing", roundhousing);
-                attackArea.SetActive(roundhousing);
+                attackAreaBKick.SetActive(roundhousing);
             }
         }
 
@@ -92,7 +98,7 @@ public class PlayerAttack : MonoBehaviour
                 timer = 0;
                 uppercutting = false;
                 animator.SetBool("isUppercutting", uppercutting);
-                attackArea.SetActive(uppercutting);
+                attackAreaUpper.SetActive(uppercutting);
             }
         }
     }
@@ -101,27 +107,27 @@ public class PlayerAttack : MonoBehaviour
     {
         attacking = true;
         animator.SetBool("isAttacking", attacking);
-        attackArea.SetActive(attacking);
+        attackAreaJab.SetActive(attacking);
     }
 
     private void ShortKick()
     {
         shortkicking = true;
         animator.SetBool("isShortKicking", shortkicking);
-        attackArea.SetActive(shortkicking);
+        attackAreaSKick.SetActive(shortkicking);
     }
 
     private void Roundhouse()
     {
         roundhousing = true;
         animator.SetBool("isRoundhousing", roundhousing);
-        attackArea.SetActive(roundhousing);
+        attackAreaBKick.SetActive(roundhousing);
     }
 
     private void Uppercut()
     {
         uppercutting = true;
         animator.SetBool("isUppercutting", uppercutting);
-        attackArea.SetActive(uppercutting);
+        attackAreaUpper.SetActive(uppercutting);
     }
 }
