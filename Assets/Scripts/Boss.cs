@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-	 public float moveSpeed = 1.5f;
+	public float moveSpeed = 1.5f;
     public float chaseRange = 5f;
     public float attackRange = 1.5f;
 
