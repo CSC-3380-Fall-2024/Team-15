@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss : MonoBehaviour
+public class RatEnemy : MonoBehaviour
 {
-	 public float moveSpeed = 1.5f;
+    private float moveSpeed = 1.5f;
     public float chaseRange = 5f;
     public float attackRange = 1.5f;
-
     private Transform player;
     private bool isChasing = false;
     private bool isAttacking = false;
-    public int attackDamage = 15;
+    public int attackDamage = 8;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public Transform target;
@@ -56,43 +55,40 @@ public class Boss : MonoBehaviour
         {
             MoveTowardsTarget();
         }
-
         if (transform.position.x > player.position.x)
         {
-            transform.localScale = new Vector3(2.5f, 2.5f, 1);
+            transform.localScale = new Vector3(.58f, .58f, 1);
         }
         else if (transform.position.x < player.position.x)
         {
-            transform.localScale = new Vector3(-2.5f, 2.5f, 1);
+            transform.localScale = new Vector3(-.58f, .58f, 1);
         }
-
     }
 
     private void MoveTowardsTarget()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
     }
-
     private void Attack()
     {
         Debug.Log("Attack");
         isAttacking = true;
-        animator.SetBool("BossAttacking", isAttacking);
         Health playerHealth = player.GetComponent<Health>();
+        animator.SetBool("EnemAttacking", isAttacking);
         if (playerHealth != null)
         {
             playerHealth.Damage(attackDamage);
+            
         }
 
         StartCoroutine(ResetAttack());
-
     }
     private IEnumerator ResetAttack()
     {
         yield return new WaitForSeconds(0.4f);
         Debug.Log("resetting :)");
         isAttacking = false;
-        animator.SetBool("BossAttacking", isAttacking);
+        animator.SetBool("EnemAttacking", isAttacking);
     }
 
     private void MoveTowardPlayer()
@@ -106,7 +102,7 @@ public class Boss : MonoBehaviour
 
     private void Die()
     {
+        GetComponent<LootBag>().InstantiateLoot(transform.position);
         Destroy(gameObject);
     }
-
 }
