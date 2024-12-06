@@ -1623,7 +1623,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 7
 --- !u!114 &1157637477
 MonoBehaviour:
@@ -1637,8 +1637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3598b93f7a2b37a4b87cff488741ea3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 1.5
-  attackDamage: 15
+  attackRange: 5
+  attackDamage: 10
   target: {fileID: 1405991867}
 --- !u!114 &1157637478
 MonoBehaviour:
@@ -2818,12 +2818,16 @@ PrefabInstance:
       value: PlayerBoundaryRight
       objectReference: {fileID: 0}
     - target: {fileID: 7416011932002974065, guid: f572aa8cc59584c22a408fb1f13530dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.3394067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416011932002974065, guid: f572aa8cc59584c22a408fb1f13530dc, type: 3}
       propertyPath: m_LocalScale.y
       value: 63.934666
       objectReference: {fileID: 0}
     - target: {fileID: 7416011932002974065, guid: f572aa8cc59584c22a408fb1f13530dc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.06
+      value: 9.1562
       objectReference: {fileID: 0}
     - target: {fileID: 7416011932002974065, guid: f572aa8cc59584c22a408fb1f13530dc, type: 3}
       propertyPath: m_LocalPosition.y
