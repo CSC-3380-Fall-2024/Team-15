@@ -11,6 +11,7 @@ public class Boss2 : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public Transform target;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class Boss2 : MonoBehaviour
         player = GameObject.FindWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,7 @@ public class Boss2 : MonoBehaviour
     {
         Debug.Log("Attack");
         isAttacking = true;
+        animator.SetBool("BossAttacking", isAttacking);
         Health playerHealth = player.GetComponent<Health>();
         if (playerHealth != null)
         {
@@ -51,6 +54,7 @@ public class Boss2 : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         Debug.Log("resetting :)");
         isAttacking = false;
+        animator.SetBool("BossAttacking", isAttacking);
     }
     private void Die()
     {
