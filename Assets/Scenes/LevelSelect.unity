@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE GYM
+  m_text: THE STREETS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1298,8 +1298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 49}
-  m_SizeDelta: {x: 272.052, y: 48.4905}
+  m_AnchoredPosition: {x: -3, y: 49}
+  m_SizeDelta: {x: 417.15, y: 48.4905}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1907255278
 MonoBehaviour:
