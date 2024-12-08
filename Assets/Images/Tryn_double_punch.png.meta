@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,658 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Tryn_double_punch_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1915
+        width: 78
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6134d841c35f1bd4a92dc36d2585ebb5
+      internalID: -115702798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1916
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a285e230d42c294a95c73a5fd24e500
+      internalID: -38805960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1916
+        width: 72
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e897617cf7641458e5ed0384849dd0
+      internalID: 652710960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1916
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6d1aee56b0b1a4b86c6c9d33ee27c8
+      internalID: -1971814598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1916
+        width: 61
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262c9a734cd723340b964a6f93be5395
+      internalID: 840962727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1916
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b0735385d03024c91feaaff331b7a7
+      internalID: 1124643891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_6
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1916
+        width: 57
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54df6ea7eb3010468e2cf07a2dec932
+      internalID: 713760671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_7
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1917
+        width: 63
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911365a35c8fb441818abdf3c14685b
+      internalID: 1426621729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1661
+        width: 67
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1cac77988d884459f6cb41b4c95c44
+      internalID: 1944106435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_9
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1661
+        width: 70
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7f0f0a2054e9f4394c379455346ccd
+      internalID: 1044434624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1661
+        width: 70
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a18a504fd1ae040895861049ddaa25
+      internalID: 119525615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1661
+        width: 70
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69d67666122624f8ca6982df270466
+      internalID: -1485040511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_12
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1661
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89440ca2e332de41acf133976bd7e44
+      internalID: -651268228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1661
+        width: 67
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365b17fa977b4324f9287ae7f146fd1d
+      internalID: 834076602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1661
+        width: 71
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4d7082c9313fc4e9aa49e861614e71
+      internalID: 726109126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_15
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1661
+        width: 76
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e97a3820481946bbc4befe91ebecc
+      internalID: -346217191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1405
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969cb9b1191ecbf469066b02a86193bb
+      internalID: -15601680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1405
+        width: 83
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6843e77cf451f4aac715abad33a0b3
+      internalID: 1889876764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1405
+        width: 85
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675fdda96ab8e6847acdb9d285598287
+      internalID: 1519781003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_19
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1405
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2c003afb345341865ff5ab9a97ccc
+      internalID: -1229074335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_20
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1405
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a586fda8b0e806d42a72d7852500fe76
+      internalID: 1545991017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_21
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1405
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6eaeebc67e8624493f2154dae7eccf
+      internalID: -2099438387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_22
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1405
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8f9028cdeb8b4280a4e5dac42e63f
+      internalID: 1664191834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_23
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1405
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e005780cdf44df4fbd73827609ed968
+      internalID: -1042905788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1148
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53536193f633d094baa65a6f9df9ef00
+      internalID: -250705968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1148
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b0566ab8cad604590b7e21f72be53d
+      internalID: 1126616693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_26
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1148
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73e8e10d499f104ebdbb845214881fe
+      internalID: -127192197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_27
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1148
+        width: 76
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3edc483e05d504ca1db5422154135a
+      internalID: 667296291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_28
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1148
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86d4c333578ad4448c62ffe9b3a5e5b
+      internalID: 805337954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_29
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1147
+        width: 78
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60301aa5b3de7604fa2f5246ebb507db
+      internalID: -636772360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_double_punch_30
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1149
+        width: 78
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e02f0810bb0a944943c0eb541f0ae9
+      internalID: 1578688679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +757,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tryn_double_punch_0: -115702798
+      Tryn_double_punch_1: -38805960
+      Tryn_double_punch_10: 119525615
+      Tryn_double_punch_11: -1485040511
+      Tryn_double_punch_12: -651268228
+      Tryn_double_punch_13: 834076602
+      Tryn_double_punch_14: 726109126
+      Tryn_double_punch_15: -346217191
+      Tryn_double_punch_16: -15601680
+      Tryn_double_punch_17: 1889876764
+      Tryn_double_punch_18: 1519781003
+      Tryn_double_punch_19: -1229074335
+      Tryn_double_punch_2: 652710960
+      Tryn_double_punch_20: 1545991017
+      Tryn_double_punch_21: -2099438387
+      Tryn_double_punch_22: 1664191834
+      Tryn_double_punch_23: -1042905788
+      Tryn_double_punch_24: -250705968
+      Tryn_double_punch_25: 1126616693
+      Tryn_double_punch_26: -127192197
+      Tryn_double_punch_27: 667296291
+      Tryn_double_punch_28: 805337954
+      Tryn_double_punch_29: -636772360
+      Tryn_double_punch_3: -1971814598
+      Tryn_double_punch_30: 1578688679
+      Tryn_double_punch_4: 840962727
+      Tryn_double_punch_5: 1124643891
+      Tryn_double_punch_6: 713760671
+      Tryn_double_punch_7: 1426621729
+      Tryn_double_punch_8: 1944106435
+      Tryn_double_punch_9: 1044434624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
