@@ -12,6 +12,8 @@ public class PlayerMove : MonoBehaviour
     bool isGrounded = false;
     Rigidbody2D rb;
     Animator animator;
+    public LayerMask groundLayer;
+    public Transform groundCheck;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         horizontalInput = Input.GetAxis("Horizontal");
         FlipSprite();
         if(Input.GetButton("Jump") && isGrounded)
