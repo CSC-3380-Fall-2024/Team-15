@@ -1569,7 +1569,7 @@ Transform:
   m_GameObject: {fileID: 398681189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0900469, y: -0.49059987, z: -10}
+  m_LocalPosition: {x: -1.4909763, y: -0.49044, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1796,6 +1796,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1591264702473418625, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1714544657}
     - target: {fileID: 3321209063311531701, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.392928
@@ -2238,6 +2242,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4196564074239932671, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1714544657}
     - target: {fileID: 4368782217472416592, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       propertyPath: m_Name
       value: SlimeEnemy
@@ -3768,7 +3776,7 @@ Transform:
   m_GameObject: {fileID: 1248531494}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.16, y: -2.44, z: -10}
+  m_LocalPosition: {x: -8.16, y: -2.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4683,6 +4691,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 18458104118888468, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1714544657}
     - target: {fileID: 3244009076491137204, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
       propertyPath: m_Name
       value: RatEnemy
@@ -5047,15 +5059,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3431453
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.459379
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0331886
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5063,7 +5075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.44
+      value: -2.8
       objectReference: {fileID: 0}
     - target: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
       propertyPath: m_LocalPosition.z
