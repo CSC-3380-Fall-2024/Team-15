@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawner2 : MonoBehaviour
+public class EnemySpawnerScript : MonoBehaviour
 {
-    public CoinCounter2 Count;
+    public CoinCounter Count;
     public GameObject enemy;
     float randX;
     public int pA;
@@ -37,3 +37,4 @@ public class EnemySpawner2 : MonoBehaviour
 
     }
 }
+

@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
-using JetBrains.Annotations;
 using UnityEngine;
 
-public class CheeseToken : MonoBehaviour
+public class CheeseToken2 : MonoBehaviour
 {
+  public CoinCounter2 cm;
 
-    public CoinCounter2 cm;
+    
     
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,6 +17,4 @@ public class CheeseToken : MonoBehaviour
            
         }
     }
-
-
 }
