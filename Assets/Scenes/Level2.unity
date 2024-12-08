@@ -981,6 +981,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4196564074239932671, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 777685083}
     - target: {fileID: 4368782217472416592, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       propertyPath: m_Name
       value: SlimeEnemy
@@ -1098,6 +1102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690d13260ee82fc418d32077000f9b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &777685083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
+  m_PrefabInstance: {fileID: 1356864411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &816897901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4676821632533040986, guid: 217e12cecb749ee41bd1f1c6574cc55c, type: 3}
@@ -2303,6 +2312,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1591264702473418625, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 777685083}
     - target: {fileID: 3321209063311531701, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.9537497
@@ -3052,6 +3065,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 18458104118888468, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 777685083}
     - target: {fileID: 3244009076491137204, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
       propertyPath: m_Name
       value: RatEnemy
