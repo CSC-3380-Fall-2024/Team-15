@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af385293f5cdd4335bcb9ef2c8f7659f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Count: {fileID: 1452412815}
+  Count: {fileID: 0}
   enemy: {fileID: 648795140}
   pA: -8
   pB: 200
@@ -508,11 +508,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848145236114887357, guid: 5438fd0c392f7409cb7fae1040cf68f5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 319.4859
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 2848145236114887357, guid: 5438fd0c392f7409cb7fae1040cf68f5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 48.668
+      value: 18.66629
       objectReference: {fileID: 0}
     - target: {fileID: 2848145236114887357, guid: 5438fd0c392f7409cb7fae1040cf68f5, type: 3}
       propertyPath: m_LocalScale.x
@@ -556,11 +556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848145236114887357, guid: 5438fd0c392f7409cb7fae1040cf68f5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 127.5
+      value: 139.9
       objectReference: {fileID: 0}
     - target: {fileID: 2848145236114887357, guid: 5438fd0c392f7409cb7fae1040cf68f5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -29.8
+      value: -27.70001
       objectReference: {fileID: 0}
     - target: {fileID: 2848145236114887357, guid: 5438fd0c392f7409cb7fae1040cf68f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1569,7 +1569,7 @@ Transform:
   m_GameObject: {fileID: 398681189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4909763, y: -0.49044, z: -10}
+  m_LocalPosition: {x: -1.0900469, y: -0.49059987, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2791,7 +2791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af385293f5cdd4335bcb9ef2c8f7659f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Count: {fileID: 1452412815}
+  Count: {fileID: 0}
   enemy: {fileID: 1647706607}
   pA: -8
   pB: 200
@@ -3444,7 +3444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af385293f5cdd4335bcb9ef2c8f7659f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Count: {fileID: 1452412815}
+  Count: {fileID: 0}
   enemy: {fileID: 37538665}
   pA: -8
   pB: 200
