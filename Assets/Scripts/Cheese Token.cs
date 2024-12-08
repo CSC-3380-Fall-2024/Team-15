@@ -7,7 +7,7 @@ using UnityEngine;
 public class CheeseToken : MonoBehaviour
 {
 
-    public CoinCounter cm;
+    public CoinCounter2 cm;
     
     void OnTriggerEnter2D(Collider2D other)
     {
