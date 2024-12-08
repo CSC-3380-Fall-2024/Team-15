@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Tryn_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1917
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e399a43f691e146976beff33a8ee5d
+      internalID: -261585866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1917
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3342f7cf0b3374582a422d14424463
+      internalID: -261691926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1918
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc5b4fb57484cf408581d1aa7878b38
+      internalID: -644855783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1918
+        width: 69
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb548f3fe49d414ca007eded894a39e
+      internalID: 1005734059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1919
+        width: 67
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461af3da305c3f34cb3e2cf23299c09e
+      internalID: -531652728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1919
+        width: 66
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a04d4bdf8dca2142a149d5b92ce3468
+      internalID: 1469125732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1920
+        width: 64
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909607048ada2f84d8dda2a5f44480ac
+      internalID: -709506709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1921
+        width: 61
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9275c485711b1f946b13aa1dfbfd78a2
+      internalID: -1838950781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1666
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851fc154045e28948918169308ca49ef
+      internalID: -1896824128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1668
+        width: 57
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51918f681f91ae249be1687a1ff7434d
+      internalID: 68718580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1666
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a403fb525e6d0e4b83f27ba29ad48fa
+      internalID: 1504736962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1665
+        width: 61
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1efe9f9b828ff41b0f5eb8015d0c68
+      internalID: 1777444458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1665
+        width: 63
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53162e979f834cb4b9e9c43a43e34e74
+      internalID: 852387491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1664
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2112606837c16489031378cd1a9861
+      internalID: 560815927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1663
+        width: 67
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78b0a58360b2c54b8ea077b7556494d
+      internalID: 1029263253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1662
+        width: 68
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b932f65c21c0f024cb4a9f44551fb986
+      internalID: 961185028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1406
+        width: 69
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ced0b130e2b9164ea80241935d67672
+      internalID: 1110742944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1406
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854cfe6d8787a02408e9bf1373f89fb6
+      internalID: 1195501495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1405
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fee3610b0af51847b1026861177dceb
+      internalID: -298702384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tryn_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1405
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3228ab7a2a16852499a7f25e66a37166
+      internalID: 1018680638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +526,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tryn_Walk_0: -261585866
+      Tryn_Walk_1: -261691926
+      Tryn_Walk_10: 1504736962
+      Tryn_Walk_11: 1777444458
+      Tryn_Walk_12: 852387491
+      Tryn_Walk_13: 560815927
+      Tryn_Walk_14: 1029263253
+      Tryn_Walk_15: 961185028
+      Tryn_Walk_16: 1110742944
+      Tryn_Walk_17: 1195501495
+      Tryn_Walk_18: -298702384
+      Tryn_Walk_19: 1018680638
+      Tryn_Walk_2: -644855783
+      Tryn_Walk_3: 1005734059
+      Tryn_Walk_4: -531652728
+      Tryn_Walk_5: 1469125732
+      Tryn_Walk_6: -709506709
+      Tryn_Walk_7: -1838950781
+      Tryn_Walk_8: -1896824128
+      Tryn_Walk_9: 68718580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
