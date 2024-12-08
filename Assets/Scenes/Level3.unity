@@ -425,14 +425,32 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 93223062}
-  - component: {fileID: 93223063}
+  - component: {fileID: 93223061}
   m_Layer: 0
-  m_Name: Slime Spawner
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &93223061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93223060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af385293f5cdd4335bcb9ef2c8f7659f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Count: {fileID: 0}
+  enemy: {fileID: 648795140}
+  pA: -8
+  pB: 200
+  spawnRate: 15
+  amount: 30
 --- !u!4 &93223062
 Transform:
   m_ObjectHideFlags: 0
@@ -448,24 +466,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &93223063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93223060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 310da83c8349e4bcd8176c8c79619784, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Count: {fileID: 1452412815}
-  enemy: {fileID: 648795140}
-  pA: -8
-  pB: 200
-  spawnRate: 15
-  amount: 30
 --- !u!4 &112182857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8417837595216317076, guid: 6c329262aee1e46f8b77b2cf6de41fb7, type: 3}
@@ -1542,15 +1542,7 @@ Transform:
   m_GameObject: {fileID: 398681189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< Updated upstream
   m_LocalPosition: {x: -1.0900469, y: -0.49059987, z: -10}
-=======
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0.49160576, y: -0.49120998, z: -10}
-=======
-  m_LocalPosition: {x: -1.0900469, y: -0.49059987, z: -10}
->>>>>>> 2939b34625a22cbdd9ff68fca8cf2b0e99b21f6d
->>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2640,14 +2632,32 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 881387817}
-  - component: {fileID: 881387818}
+  - component: {fileID: 881387816}
   m_Layer: 0
-  m_Name: Roach Spawner
+  m_Name: Spawner (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &881387816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881387815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af385293f5cdd4335bcb9ef2c8f7659f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Count: {fileID: 0}
+  enemy: {fileID: 1647706607}
+  pA: -8
+  pB: 200
+  spawnRate: 10
+  amount: 30
 --- !u!4 &881387817
 Transform:
   m_ObjectHideFlags: 0
@@ -2663,24 +2673,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &881387818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 881387815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 310da83c8349e4bcd8176c8c79619784, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Count: {fileID: 1452412815}
-  enemy: {fileID: 1647706607}
-  pA: -8
-  pB: 200
-  spawnRate: 10
-  amount: 30
 --- !u!1 &944700245
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,14 +3229,32 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1169723833}
-  - component: {fileID: 1169723834}
+  - component: {fileID: 1169723832}
   m_Layer: 0
-  m_Name: Rat Spawner
+  m_Name: Spawner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1169723832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169723831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af385293f5cdd4335bcb9ef2c8f7659f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Count: {fileID: 0}
+  enemy: {fileID: 37538665}
+  pA: -8
+  pB: 200
+  spawnRate: 20
+  amount: 30
 --- !u!4 &1169723833
 Transform:
   m_ObjectHideFlags: 0
@@ -3260,24 +3270,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1169723834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1169723831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 310da83c8349e4bcd8176c8c79619784, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Count: {fileID: 1452412815}
-  enemy: {fileID: 37538665}
-  pA: -8
-  pB: 200
-  spawnRate: 20
-  amount: 30
 --- !u!1 &1210681597
 GameObject:
   m_ObjectHideFlags: 0
