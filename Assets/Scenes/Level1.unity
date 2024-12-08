@@ -2089,7 +2089,7 @@ Transform:
   m_GameObject: {fileID: 755336812}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 228.219, y: -18.9387, z: 0}
+  m_LocalPosition: {x: 228.02, y: -18.9387, z: 0}
   m_LocalScale: {x: 1.4212795, y: 2.0051918, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2133,8 +2133,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 502422679
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -2176,7 +2176,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3646,7 +3646,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 40
+  field of view: 60
   orthographic: 1
   orthographic size: 4.3
   m_Depth: -1
@@ -3673,7 +3673,7 @@ Transform:
   m_GameObject: {fileID: 1362626523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0900469, y: -0.49059987, z: -10}
+  m_LocalPosition: {x: 320.52475, y: 161.99278, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
