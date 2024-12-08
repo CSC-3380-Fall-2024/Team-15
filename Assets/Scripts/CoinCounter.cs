@@ -8,28 +8,31 @@ public class CoinCounter : MonoBehaviour
     public int coinCount;
     public TMP_Text coinText;
     public GameObject door;
-    private bool doorUnlocked;
-    // Start is called before the first frame update
-    
+    public Transform doorSpawnLocation;
+
 
     // Update is called once per frame
     void Update()
     {
         coinText.text = coinCount.ToString();
 
-        if(coinCount == 8 && !doorUnlocked)
+        if (coinCount >= 10)
         {
-            UnlockDoor();
+            SpawnDoor();
         }
     }
-        
-        private void UnlockDoor()
-        {
-            Collider2D doorCollider = door.GetComponent<Collider2D>();
-            doorCollider.isTrigger = true;
-            doorUnlocked = true;
 
-            
+    void SpawnDoor()
+    {
+        if (door != null && doorSpawnLocation != null)
+        {
+            Instantiate(door, doorSpawnLocation.position, Quaternion.identity);
+            Debug.Log("Door spawned!");
         }
-    
+        else
+        {
+            Debug.LogError("Door prefab or spawn location not assigned!");
+        }
+    }
+
 }
