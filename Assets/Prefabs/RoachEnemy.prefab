@@ -507,7 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseRange: 4
   attackRange: 1
-  attackDamage: 5
+  attackDamage: 4
   target: {fileID: 0}
 --- !u!114 &4620845753758064552
 MonoBehaviour:
