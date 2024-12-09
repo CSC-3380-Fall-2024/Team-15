@@ -6060,6 +6060,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 450868083}
+    - target: {fileID: 2759396682151877010, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3244009076491137204, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
       propertyPath: m_Name
       value: RatEnemy
