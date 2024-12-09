@@ -287,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 40126650}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 141.79, y: -0, z: 0}
+  m_LocalPosition: {x: 141.74, y: -0, z: 0}
   m_LocalScale: {x: 5.5467787, y: 3.1249995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1438,7 +1438,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 40
   orthographic: 1
   orthographic size: 4.3
   m_Depth: -1
@@ -1465,7 +1465,7 @@ Transform:
   m_GameObject: {fileID: 398681189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 320.52475, y: 161.99278, z: -10}
+  m_LocalPosition: {x: -1.0931573, y: -0.49058986, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4263,6 +4263,7 @@ MonoBehaviour:
   coinText: {fileID: 39126913}
   door: {fileID: 1449834975880080508, guid: 462bbd28b893f41609ab19d86f965bc1, type: 3}
   doorSpawnLocation: {fileID: 1753160291}
+  doorSpawned: 0
 --- !u!1001 &1501001709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5522,7 +5523,7 @@ Transform:
   m_GameObject: {fileID: 1898345388}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.53, y: -0.00000048, z: 0}
+  m_LocalPosition: {x: 35.5, y: -0.00000048, z: 0}
   m_LocalScale: {x: 5.5467787, y: 3.1249995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
