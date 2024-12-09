@@ -3497,7 +3497,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 40
   orthographic: 1
   orthographic size: 4.3
   m_Depth: -1
@@ -3524,7 +3524,7 @@ Transform:
   m_GameObject: {fileID: 1362626523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 320.52475, y: 161.99278, z: -10}
+  m_LocalPosition: {x: -1.0900469, y: -0.49059987, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3948,6 +3948,10 @@ PrefabInstance:
     - target: {fileID: 6398278800550402600, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       propertyPath: health
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6398278800550402600, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
+      propertyPath: MaxHealth
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8078698084252202730, guid: 7dd1bdca185c49c439affcb6b93fe4ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5963,6 +5967,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 450868083}
+    - target: {fileID: 1591264702473418625, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
+      propertyPath: attackDamage
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3321209063311531701, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 353.94
@@ -6013,7 +6021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4620845753758064552, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       propertyPath: MaxHealth
-      value: 35
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4620845753758064552, guid: e8456698da2264e96912d83f7b888d8d, type: 3}
       propertyPath: healthBar
@@ -6060,6 +6068,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 450868083}
+    - target: {fileID: 1835396093184699150, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
+      propertyPath: MaxHealth
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 2759396682151877010, guid: fb632aac1b2e64867bc9d77a06f5e922, type: 3}
       propertyPath: m_CollisionDetection
       value: 1
