@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
-  MaxHealth: 20
+  MaxHealth: 60
 --- !u!70 &4655422641949045490
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseRange: 5
   attackRange: 1.5
-  attackDamage: 5
+  attackDamage: 6
   target: {fileID: 0}
 --- !u!114 &4300509717851256478
 MonoBehaviour:
