@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Anti_Tren : MonoBehaviour, IPowerUp
+public class AntiTren : MonoBehaviour, IPowerUp
 {
   public int multiplier = 2;
   public float duration = 6f;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Build;
 using UnityEngine;
 
-public class Tren_Needle : MonoBehaviour, IPowerUp
+public class TrenNeedle : MonoBehaviour, IPowerUp
 {
 
   public int multiplier = 2;
