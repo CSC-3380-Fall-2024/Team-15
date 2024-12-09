@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1979039983989413092, guid: f4650fd01580cc842b348569f513f684, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 1c193e0b4ea994a6988cb164932a47b0, type: 2}
     - target: {fileID: 4171727784315911240, guid: f4650fd01580cc842b348569f513f684, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -55,6 +59,18 @@ PrefabInstance:
     - target: {fileID: 4171727784315911240, guid: f4650fd01580cc842b348569f513f684, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104959722066828514, guid: f4650fd01580cc842b348569f513f684, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 1c193e0b4ea994a6988cb164932a47b0, type: 2}
+    - target: {fileID: 5104959722066828514, guid: f4650fd01580cc842b348569f513f684, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104959722066828514, guid: f4650fd01580cc842b348569f513f684, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6072162259058535518, guid: f4650fd01580cc842b348569f513f684, type: 3}
       propertyPath: m_Name

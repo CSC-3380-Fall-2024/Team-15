@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lootSprite: {fileID: 0}
   lootName: Speed
-  dropChance: 7
+  dropChance: 80
