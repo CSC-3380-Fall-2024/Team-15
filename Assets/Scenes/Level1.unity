@@ -182,7 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCount: 0
   coinText: {fileID: 39126913}
-  door: {fileID: 1449834975880080508, guid: 462bbd28b893f41609ab19d86f965bc1, type: 3}
+  door: {fileID: 2463511727152924922, guid: 21a69e8466d844a8d8fbdd4c3ea2c0c5, type: 3}
   doorSpawnLocation: {fileID: 1362630973}
   doorSpawned: 0
 --- !u!1 &39126911
@@ -3523,7 +3523,7 @@ Transform:
   m_GameObject: {fileID: 1362626523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 322.16208, y: 161.99255, z: -10}
+  m_LocalPosition: {x: 320.52475, y: 161.99278, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
