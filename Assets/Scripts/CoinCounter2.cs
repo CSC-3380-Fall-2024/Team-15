@@ -17,7 +17,7 @@ public class CoinCounter2 : MonoBehaviour
     {
         coinText.text = coinCount.ToString();
 
-        if(coinCount == 20)
+        if(coinCount == 15)
         {
             LoadLevelSelect();
         }

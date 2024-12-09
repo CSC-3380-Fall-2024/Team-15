@@ -2202,7 +2202,6 @@ MonoBehaviour:
   droppedItemPrefab: {fileID: 1819824052}
   lootList:
   - {fileID: 11400000, guid: 0b09bfccc0fa9437f89a2f3772af429b, type: 2}
-  - {fileID: 11400000, guid: ef093638d05eb44d5b876c772625223e, type: 2}
 --- !u!1 &1210921512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3075,7 +3074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Get 20 coins to win!
+  m_text: Get 15 coins to win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
