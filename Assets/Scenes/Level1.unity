@@ -184,6 +184,7 @@ MonoBehaviour:
   coinText: {fileID: 39126913}
   door: {fileID: 2463511727152924922, guid: 21a69e8466d844a8d8fbdd4c3ea2c0c5, type: 3}
   doorSpawnLocation: {fileID: 1362630973}
+  doorSpawned: 0
 --- !u!1 &39126911
 GameObject:
   m_ObjectHideFlags: 0

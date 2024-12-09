@@ -9,6 +9,7 @@ public class CoinCounter : MonoBehaviour
     public TMP_Text coinText;
     public GameObject door;
     public Transform doorSpawnLocation;
+    public bool doorSpawned = false;
 
 
     // Update is called once per frame
@@ -16,7 +17,7 @@ public class CoinCounter : MonoBehaviour
     {
         coinText.text = coinCount.ToString();
 
-        if (coinCount >= 10)
+        if (coinCount >= 10 && doorSpawned == false)
         {
             SpawnDoor();
         }
@@ -26,6 +27,7 @@ public class CoinCounter : MonoBehaviour
     {
         if (door != null && doorSpawnLocation != null)
         {
+            doorSpawned = true;
             Instantiate(door, doorSpawnLocation.position, Quaternion.identity);
             Debug.Log("Door spawned!");
         }
