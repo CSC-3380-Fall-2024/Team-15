@@ -382,7 +382,7 @@ MonoBehaviour:
   moveSpeed: 2
   chaseRange: 0
   attackRange: 1
-  attackDamage: 4
+  attackDamage: 5
   target: {fileID: 0}
   groundLayer:
     serializedVersion: 2
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
-  MaxHealth: 50
+  health: 100
 --- !u!95 &8476109184067337784
 Animator:
   serializedVersion: 5
