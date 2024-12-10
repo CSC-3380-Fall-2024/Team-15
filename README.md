@@ -12,12 +12,13 @@ HOW TO RUN:
 6. If you have to find the repo through your disk, simply find the folder in your PC/laptop that is titled "GitHub" from there use the folder titled "Team-15". 
 7. Once done, load the Project, it should default to the title "Team-15, if not then just ensure that the repo is listed in the Project details.
 8. The project may take a while to load as it is also loading ALL of the assets from the repo. 
-9. Once loaded, go into the Scenes folder in the Assets folder in the Projects tab.
-10. Click on the "MainMenu" scene
-11. Once on the "MainMenu" scene, click on the option located at the top of the screen that says "Game"
-12. Once in the "Game" option, change the option that says "Free Aspect" to "Full HD"
-13. Set the Scale to 1x right by the "Full HD" option
-14. Then, simply hit the Play button near the top of the screen to start the game. 
+9. Once loaded, go to the Team-15 GitHub repo on the GitHub desktop app and ensure you are on the default branch that should be called "Dev"
+10. Let the Unity editor reload and then go to the Scenes folder that is located in the Assets folder in the Project tab. 
+11. Click on the "MainMenu" scene
+12. Once on the "MainMenu" scene, click on the option located at the top of the screen that says "Game"
+13. Once in the "Game" option, change the option that says "Free Aspect" to "Full HD"
+14. Set the Scale to 1x right by the "Full HD" option
+15. Then, simply hit the Play button near the top of the screen to start the game. 
 
 HOW TO PLAY:
 Controls -
