@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ea5f3125f9e44b2a24cd8029a9e861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 8885648421697404052, guid: d0fc05f4950388245a6d248fd6e52c86, type: 3}
+  droppedItemPrefab: {fileID: 1352796302}
   lootList:
   - {fileID: 11400000, guid: 01fc602dbb76b4bc8857045583894ff3, type: 2}
 --- !u!1001 &671144040
@@ -4129,6 +4129,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343280008}
   m_CullTransparentMesh: 1
+--- !u!1 &1352796302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8885648421697404052, guid: d0fc05f4950388245a6d248fd6e52c86, type: 3}
+  m_PrefabInstance: {fileID: 520221909}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1391031468
 PrefabInstance:
   m_ObjectHideFlags: 0
