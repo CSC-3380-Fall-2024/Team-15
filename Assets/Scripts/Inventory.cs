@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour
         {
             UsePowerUp(0);
         }
-        if (Input.GetKeyDown(KeyCode.X) && currentPowerup != null && inventory.Count < maxInventorySize )
+        if (Input.GetKeyDown(KeyCode.X) && inventory.Count < maxInventorySize )
         {
             PickupPowerUp();
             inventoryUI.UpdateInventoryUI();
@@ -58,9 +58,6 @@ public class Inventory : MonoBehaviour
                 Debug.Log("Picked up: " + powerUp.GetType().Name);
             }
         }
-   
-        
-       
     }
 
     void UsePowerUp(int index)

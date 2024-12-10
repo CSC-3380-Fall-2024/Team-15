@@ -10,22 +10,22 @@ public class CoinCounter2 : MonoBehaviour
     public TMP_Text coinText;
     private string Levelselect = "LevelSelect";
     // Start is called before the first frame update
-    
+
 
     // Update is called once per frame
     void Update()
     {
         coinText.text = coinCount.ToString();
 
-        if(coinCount == 20)
+        if (coinCount >= 15)
         {
             LoadLevelSelect();
         }
     }
-        
-        private void LoadLevelSelect()
-        {
-            SceneManager.LoadScene(Levelselect);
-        }
+
+    private void LoadLevelSelect()
+    {
+        SceneManager.LoadScene(Levelselect);
+    }
 }
-    
+
