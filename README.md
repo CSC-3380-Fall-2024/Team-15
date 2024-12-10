@@ -27,3 +27,6 @@ I = Uppercut
 X = Pickup Object
 Z = Use Object
 O = Drop Object/Open Doors
+
+Iitch.io Link:
+https://hdaren2.itch.io/gymrat
