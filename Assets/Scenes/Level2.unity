@@ -1102,7 +1102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryText: {fileID: 942149025}
-  inventory: {fileID: 777685073}
+  inventory: {fileID: 0}
 --- !u!4 &436991783
 Transform:
   m_ObjectHideFlags: 0
@@ -1431,17 +1431,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strength: 6
   maxStrength: 12
---- !u!114 &777685073 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1354061142897662037, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
-  m_PrefabInstance: {fileID: 1356864411}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777685071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 690d13260ee82fc418d32077000f9b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &777685083 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 104203026006053951, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
@@ -2766,7 +2755,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1354061142897662037, guid: e239ee83f0b6765469efc3843e7a7b43, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
