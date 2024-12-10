@@ -3464,6 +3464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instant_Health
       objectReference: {fileID: 0}
+    - target: {fileID: 4350550505311858227, guid: 59c36701e238a47fa930d0da4981b298, type: 3}
+      propertyPath: multiplier
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
