@@ -32,7 +32,7 @@ K = Short Kick
 I = Uppercut
 X = Pickup Object
 Z = Use Object
-O = Drop Object/"GO!" to the next level
+O = Drop Object/"GO!" to the boss area 
 
 Iitch.io Link To Easily Play The Game on Browser:
 https://hdaren2.itch.io/gymrat
