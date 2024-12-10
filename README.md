@@ -9,7 +9,7 @@ Hello! This is the repository for Team-15 in CSC 3380. This repository consists 
 HOW TO RUN:
 1. Clone the repository onto your computer/laptop to access all files.
 2. Download Unity Hub for your platform
-3. Download Unity Editor version 2022.3.46f1
+3. Download Unity Editor version 2022.3.46f1 and ensure that the script compiler that will be used is the VSCode Extension.
 4. After downloading the editor, go to Add in the Projects section of Unity Hub
 5. Add the repository by using the first option and finding the repo on your disk. 
 6. To find the repo through your disk, simply find the folder in your PC/laptop that is titled "GitHub" from there use the folder titled "Team-15". 
