@@ -15,13 +15,14 @@ HOW TO RUN:
 6. To find the repo through your disk, simply find the folder in your PC/laptop that is titled "GitHub" from there use the folder titled "Team-15". 
 7. Once done, load the Project, it should default to the title "Team-15", if not then just ensure that the repo is listed in the Project details.
 8. The project may take a while to load as it is also loading ALL of the assets from the repo.
-9. Additionally, download the GitHub desktop app to make commits easier and to create pull requests straight from the app. If the app is downloaded and has the repository cloned, make sure that the default branch titled "Dev" is selected before using the editor. 
-10. Let the Unity editor reload and then go to the Scenes folder that is located in the Assets folder in the Project tab. 
-11. Click on the "MainMenu" scene
-12. Once on the "MainMenu" scene, click on the option located at the top of the screen that says "Game"
-13. Once in the "Game" option, change the option that says "Free Aspect" to "Full HD"
-14. Set the Scale to 1x right by the "Full HD" option
-15. Then, simply hit the Play button near the top of the screen to start the game. 
+9. Additionally, download the GitHub desktop app to make commits easier and to create pull requests straight from the app. If the app is downloaded and has the repository cloned, make sure that the default branch titled "Dev" is selected before using the editor.
+10. Also, in your VSCode, please download the appropriate extensions to run C#. These extensions are: "C#", "C# Dev Kit". Be sure to also have the "Unity" extension installed in VSCode to help make the scripts compile in the Unity editor. This should automatically pop up and install in VSCode when you are first installing the editor, but please make sure this extension is installed manuallly just in case. 
+11. Let the Unity editor reload and then go to the Scenes folder that is located in the Assets folder in the Project tab. 
+12. Click on the "MainMenu" scene
+13. Once on the "MainMenu" scene, click on the option located at the top of the screen that says "Game"
+14. Once in the "Game" option, change the option that says "Free Aspect" to "Full HD"
+15. Set the Scale to 1x right by the "Full HD" option
+16. Then, simply hit the Play button near the top of the screen to start the game. 
 
 HOW TO PLAY:
 Controls -
