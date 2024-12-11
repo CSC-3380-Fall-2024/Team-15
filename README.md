@@ -33,7 +33,8 @@ K = Short Kick
 I = Uppercut
 X = Pickup Object
 Z = Use Object
-O = Drop Object/"GO!" to the boss area 
+O = Drop Object/"GO!" to the boss area -  *Once standing at the end of the scene map at the area labeled "Go" with enough coins, pressing O transports you to the next area with the boss.*
+
 
 Iitch.io Link To Easily Play The Game on Browser:
 https://hdaren2.itch.io/gymrat
